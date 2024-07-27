@@ -7,6 +7,8 @@ box-sizing: border-box;
 
 .fondoIndex {
     background-image: url("../assets/fondoIndex.png");
+    background-size:cover;
+    background-repeat: no-repeat;
 }
 
 
@@ -33,24 +35,27 @@ a {
 
 .nosotrosFondo {
     background-image: url("../assets/fondoNos.png");
-    background-size: cover;
+    background-size:cover;
+    background-repeat: no-repeat;
 }
 
 .entrenadoresFondo {
     background-image: url("../assets/fondoEntrenador.png");
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .featuresFondo {
     background-image: url("../assets/fondoFeatures.png");
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .planesFondo {
     background-image: url("../assets/fondoPlanes.png");
     background-size: cover;
+    background-repeat: no-repeat;
 }
-
 
 * button{
     padding: 10px;
@@ -96,16 +101,19 @@ a {
 .cuerpoIndex {
     display: grid;
     grid-template-columns:  repeat(4,1fr);
-    grid-template-rows: repeat(2,200px);
+    grid-template-rows: repeat(4,200px);
 }
 
 .cuerpoIndex .chicoGym {
     display: grid;
     filter: grayscale();
-    grid-column: 4/5;
-    grid-row: 1/4;
+    width: 800px;
+    height: 80vh;
+    grid-column: 3/5;
+    grid-row: 1/5;
     justify-self: center;
     align-self: end; 
+
 }
 
 .cuerpoIndex .botonVermas{
@@ -115,6 +123,7 @@ a {
     margin-left: 50px;
     grid-column: 1/2;
     grid-row: 2/3;
+    margin-left: 100px;
 }
 
 .cuerpoIndex .logoWhatsapp{
@@ -122,12 +131,13 @@ a {
     width: 20%;
     height: 20vh;
     padding-top: 80px;
-    margin-left: 50px;
-    grid-column: 2/3;
-    grid-row: 2/3;
+    margin-left: 70px;
+    grid-column: 1/2;
+    grid-row: 3/4;
     object-fit: contain;
     justify-self: left;
     align-self: end;
+    margin-bottom: 50px;
 }
 
 .cuerpoIndex .linkWhatsapp{
@@ -136,17 +146,18 @@ a {
     border-radius: 100px;
     margin-right: 50px;
     background-color: rgb(37, 211, 102);
-    grid-column: 2/3;
-    grid-row: 2/3;
+    grid-column: 1/2;
+    grid-row: 3/4;
     justify-self: right;
     align-self: end;
+    margin-bottom: 70px;
 }
 
 .cuerpoIndex .logoInsta {
     display: grid;
     width: 20%;
     height: 20vh;
-    margin-left: 50px;
+    margin-left: 70px;
     padding-top: 80px;
     grid-column: 1/2;
     grid-row: 2/3;
@@ -165,19 +176,21 @@ a {
     grid-row: 2/3;
     justify-self: right;
     align-self: end;
+    margin-bottom: 20px;
 }
 
 .cuerpoIndex .logoYoutube {
     display: grid;
     width: 20%;
     height: 20vh;
-    margin-left: 50px;
+    margin-left: 70px;
     padding-top: 80px;
-    grid-column: 3/4;
-    grid-row: 2/3;
+    grid-column: 1/2;
+    grid-row: 4/5;
     object-fit: contain;
     justify-self: left;
     align-self: end;
+    margin-bottom: 90px;
 }
 
 .cuerpoIndex .linkYoutube{
@@ -185,10 +198,11 @@ a {
     padding: 15px 10px;
     border-radius: 100px;
     margin-right: 50px;
-    grid-column: 3/4;
-    grid-row: 2/3;
+    grid-column: 1/2;
+    grid-row: 4/5;
     justify-self: right;
     align-self: end;
+    margin-bottom: 115px;
 }
 
 span {
@@ -1604,7 +1618,7 @@ span {
 }
 
 @media (max-width:425px){
-    
+
 }
 
 
