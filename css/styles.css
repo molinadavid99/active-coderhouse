@@ -861,7 +861,6 @@ span {
     order: 1;
 }
 
-
 /** Termina codigo de entrenadores.html**/
 
 /** Comienza codigo de Features.html **/
@@ -1033,7 +1032,7 @@ span {
     order: 1
 }
 
-/**Comienzo de Codigo media queries de Features.html**/
+/**Comienzo de Codigo media queries**/
 
 @media (max-width:1024px){
 
@@ -1078,7 +1077,7 @@ span {
         text-align:justify;
         margin-left: 50px;
         margin-top: 20px;
-        }
+    }
 
     .cuerpoFeatures .botonFeatures {
         display: grid;
@@ -1100,7 +1099,7 @@ span {
         grid-template-columns:  repeat(3, 1fr);
         grid-template-rows: repeat(4,100px);
         margin-top: 180px;
-        }
+    }
 
     .footerFeatures .tituloUnoFeatures {
         display: grid;
@@ -1111,7 +1110,7 @@ span {
         font-size: 50px;
         margin-bottom: 50px;
         order: 4
-        }
+    }
         
     .footerFeatures .textoUnoFeatures {
         display: grid;
@@ -1121,7 +1120,7 @@ span {
         order: 4;
         margin-left: 20px;
         align-self: end;
-        }
+    }
         
     .footerFeatures .tituloDosFeatures {
         display: grid;
@@ -1133,7 +1132,7 @@ span {
         font-size: 50px;
         margin-bottom: 50px;
         order:5;
-        }
+    }
         
     .footerFeatures .textoDosFeatures {
         display: grid;
@@ -1142,7 +1141,7 @@ span {
         color: black;
         align-self: end;
         order: 3;
-        }
+    }
         
     .footerFeatures .tituloTresFeatures {
         display: grid;
@@ -1154,7 +1153,7 @@ span {
         font-size: 50px;
         margin-bottom: 50px;
         order: 6;
-        }
+    }
         
     .footerFeatures .textoTresFeatures {
         display: grid;
@@ -1164,7 +1163,7 @@ span {
         order: 2;
         margin-right: 20px;
         align-self: end;
-        }
+    }
     
     .footerFeatures .gradienteFooterFeatures{
         display: grid;
@@ -1195,7 +1194,7 @@ span {
         text-align:justify;
         margin-left: 50px;
         margin-top: 80px;
-        }
+    }
 
     .cuerpoFeatures .maquinaGym {
         width: 150%;
@@ -1206,7 +1205,7 @@ span {
         grid-column: 2/4;
         grid-row: 1/4;
         margin-top: 200px;
-        }
+    }
 
     .cuerpoFeatures .botonFeatures {
         margin-left: 50px;
@@ -1230,7 +1229,6 @@ span {
         order: 4;
     }
 
-            
     .footerFeatures .textoUnoFeatures {
         display: grid;
         grid-column: 1/2;
@@ -1239,8 +1237,8 @@ span {
         order: 4;
         margin-left: 30px;
         align-self: end;
-        }
-            
+    }
+
     .footerFeatures .tituloDosFeatures {
         display: grid;
         font-weight: bold;
@@ -1252,8 +1250,8 @@ span {
         margin-bottom: 80px;
         margin-left: 10px;
         order:5;
-        }
-            
+    }
+
     .footerFeatures .textoDosFeatures {
         display: grid;
         grid-column: 2/3;
@@ -1262,8 +1260,8 @@ span {
         align-self: end;
         order: 3;
         margin-left: 10px;
-        }
-            
+    }
+
     .footerFeatures .tituloTresFeatures {
         display: grid;
         font-weight: bold;
@@ -1275,8 +1273,8 @@ span {
         margin-left: 15px;
         margin-bottom: 80px;
         order: 6;
-        }
-            
+    }
+
     .footerFeatures .textoTresFeatures {
         display: grid;
         grid-column: 3/4;
@@ -1286,8 +1284,8 @@ span {
         margin-right: 10px;
         align-self: end;
         margin-left: 20px;
-        }
-        
+    }
+
     .footerFeatures .gradienteFooterFeatures{
         display: grid;
         grid-column: 1/5;
@@ -1372,7 +1370,7 @@ span {
 
 }
 
-/**Culminacion de Codigo media queries de Features.html**/
+/** Finalizado Codigo de media queries **/
 
 /** Termina codigo de Features.html **/
 
@@ -1645,7 +1643,7 @@ span {
         grid-column: 1/5;
         grid-row: 1/4;
         margin-top: 40px;
-        }
+    }
 }
 
 @media (max-width:425px){
@@ -1657,7 +1655,7 @@ span {
         align-self: center;
         margin-bottom: 300px;
     }
-
+    
     .cuerpoPlanes .tituloPlanes{
         color: white
     }
@@ -1688,6 +1686,8 @@ span {
         margin-top: 200px;
     }
 }
+
+/** Finalizado Codigo de media queries **/
 
 /** Termina codigo de Planes.html **/
 
@@ -1933,11 +1933,3 @@ span {
     color: grey;
 }
 /** Final de codigo de ejercicios **/
-
-.carousel-control-prev {
-    box-shadow: none;
-}
-
-.carousel-control-next{
-    box-shadow: none;
-}
