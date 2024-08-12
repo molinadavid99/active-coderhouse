@@ -2474,7 +2474,7 @@ a {
 /** FEATURES **/
 @media (min-width: 601px) and (max-width: 1046px) {
   .fondoFeatures {
-    background-image: url("../../../assets/fondoFeat.png");
+    background-image: url("../assets/fondoFeat.png");
     background-size: cover;
     background-repeat: no-repeat; }
   .headerFeatures {
@@ -2574,7 +2574,7 @@ a {
 /** PLANES **/
 @media (min-width: 601px) and (max-width: 1046px) {
   .planesFondo {
-    background-image: url("../../../assets/fondoPla.png");
+    background-image: url("../assets/fondoPla.png");
     background-size: cover;
     background-repeat: no-repeat; }
   .headerPlanes {
