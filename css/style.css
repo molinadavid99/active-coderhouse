@@ -1763,7 +1763,7 @@ a {
 
 /** FEATURES **/
 @media (max-width: 600px) {
-  .fondoIndex {
+  .fondoFeatures {
     background-image: url("../assets/fondoFeat.png");
     background-size: cover;
     background-repeat: no-repeat; }
@@ -1868,7 +1868,7 @@ a {
 
 /** PLANES **/
 @media (max-width: 600px) {
-  .fondoIndex {
+  .fondoPlanes {
     background-image: url("../assets/fondoPla.png");
     background-size: cover;
     background-repeat: no-repeat; }
