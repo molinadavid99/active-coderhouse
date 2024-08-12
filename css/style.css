@@ -1763,7 +1763,7 @@ a {
 
 /** FEATURES **/
 @media (max-width: 600px) {
-  .fondoFeatures {
+  .featuresFondo {
     background-image: url("../assets/fondoFeat.png");
     background-size: cover;
     background-repeat: no-repeat; }
@@ -1868,7 +1868,7 @@ a {
 
 /** PLANES **/
 @media (max-width: 600px) {
-  .fondoPlanes {
+  .planesFondo {
     background-image: url("../assets/fondoPla.png");
     background-size: cover;
     background-repeat: no-repeat; }
@@ -2473,7 +2473,7 @@ a {
 
 /** FEATURES **/
 @media (min-width: 601px) and (max-width: 1046px) {
-  .fondoFeatures {
+  .featuresFondo {
     background-image: url("../assets/fondoFeat.png");
     background-size: cover;
     background-repeat: no-repeat; }

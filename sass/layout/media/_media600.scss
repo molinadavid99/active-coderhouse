@@ -490,7 +490,7 @@
 
 /** FEATURES **/
 @media (max-width: 600px) {
-    .fondoFeatures {
+    .featuresFondo { 
         background-image: url("../assets/fondoFeat.png");
         background-size: cover;
         background-repeat: no-repeat;
@@ -618,7 +618,7 @@
 
 /** PLANES **/
 @media (max-width: 600px) {
-    .fondoPlanes {
+    .planesFondo {
         background-image: url("../assets/fondoPla.png");
         background-size: cover;
         background-repeat: no-repeat;
