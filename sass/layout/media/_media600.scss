@@ -490,11 +490,6 @@
 
 /** FEATURES **/
 @media (max-width: 600px) {
-    .featuresFondo{ 
-        background-image: url("../../../assets/fondoFeat.png"); 
-        background-size: cover; 
-        background-repeat: no-repeat;
-    }
     .headerFeatures {
         flex-direction: column;
         align-items: center;
@@ -618,11 +613,6 @@
 
 /** PLANES **/
 @media (max-width: 600px) {
-    .planesFondo{ 
-        background-image: url("../../../assets/fondoPla.png"); 
-        background-size: cover; 
-        background-repeat: no-repeat; 
-    }
     .headerPlanes {
         flex-direction: column;
         align-items: center;
