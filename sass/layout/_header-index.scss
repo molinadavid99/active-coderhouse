@@ -1,0 +1,8 @@
+.headerIndex {
+	@include flexHeader(space-evenly,center);
+	.logoActiveIndex{  
+		&:hover { 
+			filter: drop-shadow(1px 1px map-get($map: $paleta, $key:colorIndex ) );
+			}
+		}
+} 

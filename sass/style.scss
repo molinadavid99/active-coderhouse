@@ -1,0 +1,38 @@
+/** UTILITIES **/
+@import "./utilities/variables";
+@import "./utilities/maps";
+@import "./utilities/mixins";
+
+/** BASE **/
+@import "./base/reset";
+
+/** LAYOUT **/
+@import "./layout/header-index";
+@import "./layout/main-index";
+@import "./layout/footer-index";
+@import "./layout/header-nosotros";
+@import "./layout/main-nosotros";
+@import "./layout/footer-nosotros";
+@import "./layout/header-entrenadores";
+@import "./layout/main-entrenadores";
+@import "./layout/footer-entrenadores";
+@import "./layout/header-features";
+@import "./layout/main-features";
+@import "./layout/footer-features";
+@import "./layout/header-planes";
+@import "./layout/main-planes";
+@import "./layout/footer-planes";
+@import "./layout/main-mech";
+@import "./layout/main-ejercicios";
+@import "./layout/main-clases";
+
+/** COMPONENTES **/
+@import "./components/button";
+@import "./components/navbar";
+@import "./components/carousel";
+
+/** MEDIA QUERIES **/
+@import "./layout/media/media480";
+@import "./layout/media/media600";
+@import "./layout/media/media601-1046";
+@import "./layout/media/media1200";

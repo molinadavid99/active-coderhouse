@@ -1,0 +1,65 @@
+.footerNosotros{ 
+	display: grid;
+	grid-template-columns: repeat(3,1fr) ;
+	grid-template-rows: repeat(0,200px) ;
+	.tituloUnoNosotros {
+		display: grid ;
+		font-size: x-large;
+		font-weight: bold ;
+		color: map-get($map: $paleta, $key:colorIndex ) ;
+		align-self: end ;
+		grid-column: 1/2 ;
+		grid-row: 1/2 ;
+		margin-left: 20px; 
+	}
+	.textoUnoNosotros {
+		display: grid ;
+		color: black ;
+		grid-column: 1/2 ;
+		grid-row: 2/3 ;
+		margin-left: 20px ;
+		order: 2 ;
+	}
+	.tituloDosNosotros {
+		display: grid ;
+		font-size: x-large;
+		color: map-get($map: $paleta, $key:colorIndex );
+		font-weight: bold ;
+		align-self: end ;
+		grid-column: 2/3 ;
+		grid-row: 1/2 ;
+	}
+	.textoDosNosotros {
+		display: grid ;
+		color: black ;
+		margin-right: 20px ;
+		grid-column: 2/3 ;
+		grid-row: 2/3 ;
+		order: 5 ;
+	}
+	.tituloTresNosotros {
+		display: grid; 
+		font-size: x-large;
+		color: map-get($map: $paleta, $key:colorIndex ) ;
+		font-weight: bold ;
+		align-self: end ;
+		grid-column: 3/4 ;
+		grid-row: 1/2 ;
+	}
+	.textoTresNosotros {
+		display: grid; 
+		color: black ;
+		grid-column: 3/4; 
+		grid-row: 2/3 ;
+		margin-right: 20px; 
+		order: 2 ;
+	}
+	.gradienteFooterNosotros {
+		display: grid ;
+		width: 100% ;
+		height: 20vh ;
+		grid-column: 1/4; 
+		grid-row: 1/4 ;
+		order: 1 ;
+	}
+}

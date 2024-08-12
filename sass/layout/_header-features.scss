@@ -1,0 +1,12 @@
+.headerFeatures {
+	@include flexHeader(space-evenly,center);
+	.logoActiveFeatures {
+		margin-left: 30px ;
+		&:hover {
+			filter: drop-shadow(1px 1px map-get($map: $paleta, $key:colorFeatures ));
+	a {
+		font-size: 20px ;
+			}
+		}	
+	}
+}

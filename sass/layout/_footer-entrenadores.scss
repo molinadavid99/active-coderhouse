@@ -1,0 +1,64 @@
+.footerEntrenadores {
+	display: grid ;
+	grid-template-columns: repeat(3,1fr) ;
+	grid-template-rows: repeat(0,200px) ;
+	.tituloUnoEntrenadores {
+		display: grid ;
+		font-size: x-large;
+		font-weight: bold; 
+		align-self: end ;
+		grid-column: 1/2; 
+		grid-row: 1/2 ;
+		color: map-get($map: $paleta, $key:colorEntrenadores ) ;
+		margin-left: 20px; 
+	}
+	.textoUnoEntrenadores {
+		display: grid ;
+		grid-column: 1/2; 
+		grid-row: 2/3 ;
+		color: black ;
+		margin-left: 20px; 
+		order: 4 ;
+	}
+	.tituloDosEntrenadores{ 
+		display: grid ;
+		font-size: x-large;
+		color: map-get($map: $paleta, $key:colorEntrenadores );
+		font-weight: bold; 
+		align-self: end ;
+		grid-column: 2/3; 
+		grid-row: 1/2 ,
+	}
+	.textoDosEntrenadores {
+		display: grid ;
+		grid-column: 2/3 ;
+		grid-row: 2/3 ;
+		color: black ;
+		order: 3 ;
+	}	
+	.tituloTresEntrenadores{ 
+		display: grid ;
+		font-size: x-large;
+		font-weight: bold; 
+		align-self: end ;
+		grid-column: 3/4; 
+		grid-row: 1/2 ;
+		color: map-get($map: $paleta, $key:colorEntrenadores ) ;
+	}
+	.textoTresEntrenadores {
+		display: grid ;
+		grid-column: 3/4; 
+		grid-row: 2/3 ;
+		color: black ;
+		margin-right: 20px; 
+		order: 2 ;
+	}
+	.gradienteFooterEntrenadores {
+		display: grid ;
+		width: 100% ;
+		height: 20vh ;
+		grid-column: 1/4 ; 
+		grid-row: 1/4 ;
+		order: 1 ;
+		}
+}

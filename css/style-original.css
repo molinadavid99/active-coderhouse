@@ -1,0 +1,3203 @@
+/** Codigo general **/
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+* button{
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.377);
+}
+
+.fondoIndex {
+    background-image: url("../assets/fondoIndex.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+
+h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+* {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a {
+    font-family: "Poppins", sans-serif;
+    font-weight: 00;
+    font-style: normal;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+.nosotrosFondo {
+    background-image: url("../assets/fondoNos.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.entrenadoresFondo {
+    background-image: url("../assets/fondoEntrenador.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.featuresFondo {
+    background-image: url("../assets/fondoFeatures.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.planesFondo {
+    background-image: url("../assets/fondoPlanes.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fondoMerch{
+    background-color: #8e8e8e;
+}
+
+
+* button{
+    padding: 10px;
+    border-radius: 40%;
+    width: 100px;
+    height: 3.125rem;
+    border: none;
+    }
+/**Termina codigo general **/
+
+/** Comienza el codigo de INDEX **/
+.headerIndex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navBar ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.textonavBar {
+    display: flex;
+    text-decoration: none;
+    gap: 1.875rem;
+}
+
+.textonavBar li {
+    display: flex;
+    text-decoration: none;
+}
+
+.textonavBar li a{
+    color: white;
+}
+
+.cuerpoIndex button {
+    background-color: red;
+}
+
+
+.cuerpoIndex {
+    display: grid;
+    grid-template-columns:  repeat(4,1fr);
+    grid-template-rows: repeat(4,200px);
+}
+
+.cuerpoIndex .chicoGym {
+    display: grid;
+    filter: grayscale();
+    width: 800px;
+    height: 100vh;
+    grid-column: 3/5;
+    grid-row: 1/5;
+    justify-self: center;
+    align-self: end; 
+
+}
+
+.cuerpoIndex .botonVermas{
+    display: grid;
+    padding: 15px 10px;
+    border-radius: 100px;
+    margin-left: 50px;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin-left: 100px;
+}
+
+.cuerpoIndex .logoWhatsapp{
+    display: grid;
+    width: 20%;
+    height: 20vh;
+    padding-top: 80px;
+    margin-left: 200px;
+    grid-column: 1/3;
+    grid-row: 3/4;
+    object-fit: contain;
+    justify-self: left;
+    align-self: end;
+    margin-bottom: 70px;
+}
+
+.cuerpoIndex .linkWhatsapp{
+    display: grid;
+    padding: 15px 10px;
+    border-radius: 100px;
+    margin-right: 50px;
+    background-color: rgb(37, 211, 102);
+    grid-column: 1/2;
+    grid-row: 3/4;
+    justify-self: right;
+    align-self: end;
+    margin-bottom: 70px;
+}
+
+.cuerpoIndex .logoInsta {
+    display: grid;
+    width: 20%;
+    height: 20vh;
+    margin-left: 200px;
+    padding-top: 80px;
+    grid-column: 1/3;
+    grid-row: 2/3;
+    justify-self: left;
+    align-self: end;
+    object-fit: contain;
+    margin-bottom: 20px
+}
+
+.cuerpoIndex .linkInsta{
+    display: grid;
+    padding: 15px 10px;
+    border-radius: 100px;
+    margin-right: 50px;
+    background-color: rgb(184, 12, 186);
+    grid-column: 1/2;
+    grid-row: 2/3;
+    justify-self: right;
+    align-self: end;
+    margin-bottom: 20px;
+}
+
+.cuerpoIndex .logoYoutube {
+    display: grid;
+    width: 20%;
+    height: 20vh;
+    margin-left: 200px;
+    padding-top: 80px;
+    grid-column: 1/3;
+    grid-row: 4/5;
+    object-fit: contain;
+    justify-self: left;
+    align-self: end;
+    margin-bottom: 115px;
+}
+
+.cuerpoIndex .linkYoutube{
+    display: grid;
+    padding: 15px 10px;
+    border-radius: 100px;
+    margin-right: 50px;
+    grid-column: 1/2;
+    grid-row: 4/5;
+    justify-self: right;
+    align-self: end;
+    margin-bottom: 115px;
+}
+
+span {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+.cuerpoIndex h1 {
+    display: grid;
+    grid-column-start: 1 ;
+    grid-column-end: 3 ;
+    grid-row-start: 1 ;
+    grid-row-end: 2 ;
+    font-size: 60px;
+    margin-left: 20px;
+    line-height: 0.8;
+    justify-self: center;
+    align-self: center;
+    color: white;
+    font-style: italic;
+}
+.cuerpoIndex span{
+    display: grid;
+    font-size: 70px ;
+    color: red; 
+    font-style: italic;
+    justify-self: center;
+    align-self: center;
+}
+
+
+.cuerpoIndex .chicoGym:hover{
+    filter: drop-shadow(4px 4px red);
+}
+
+.cuerpoIndex a:hover{
+    color: red;
+    font-weight: bolder;
+}
+
+.cuerpoIndex button:hover{
+    background-color: white;
+}
+
+.cuerpoIndex .anclaInsta:hover{
+    color: rgb(184, 12, 186)
+}
+
+.cuerpoIndex .anclaWhatsapp:hover{
+    color: rgb(37, 211, 102) ;
+}
+
+.cuerpoIndex span:hover{
+    color: white;
+}
+
+.cuerpoIndex h1:hover{
+    color: red;
+}
+
+.cuerpoIndex .textonaBar li:hover{
+    color: red;
+}
+
+.textonavBar li a:hover{
+    color: red;
+}
+
+.headerIndex .logoActiveIndex:hover{
+    filter: drop-shadow(1px 1px red);
+}
+
+.footerIndex {
+    display: grid;
+    grid-template-columns:  repeat(3,1fr);
+    grid-template-rows: repeat(0,200px);
+}
+
+.footerIndex .tituloUnoIndex {
+    display: grid;
+    margin-left: 20px;
+    font-weight: bold;
+    align-self: end;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    color: red;
+}
+
+.footerIndex .textoUnoIndex {
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin-left: 20px;
+    order: 2;
+    color: black ;
+    order: 4;
+}
+
+.footerIndex .tituloDosIndex {
+    display: grid;
+    font-weight: bold;
+    align-self: end;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    color: red;
+}
+
+.footerIndex .textoDosIndex {
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    color: black;
+    order: 2;
+}
+
+.footerIndex .tituloTresIndex {
+    display: grid;
+    font-weight: bold;
+    align-self: end;
+    grid-column: 3/4;
+    grid-row: 1/2;
+    color:red;
+}
+
+.footerIndex .textoTresIndex {
+    display: grid;
+    grid-column: 3/4;
+    grid-row: 2/3;
+    color:black;
+    margin-right: 20px;
+    order: 2;
+}
+
+.footerIndex .gradienteFooterIndex{
+    display: grid;
+    width: 100%;
+    height: 20vh;
+    grid-column: 1/4;
+    grid-row: 1/4;
+    order: 1;
+}
+
+
+/**Media queries**/
+/* Pantallas medianas (tabletas) */
+
+@media (min-width: 601px) and (max-width: 1046px) {
+    .fondoIndex {
+        background-image: url("../assets/fondoinde.png");
+        background-size:cover;
+        background-repeat: no-repeat;
+    }
+    .headerIndex {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navBar ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .textonavBar {
+        gap: .3125rem;
+    }
+
+    .textonavBar li {
+        margin-bottom: 0.5rem;
+        text-align: center;
+    }
+
+    .cuerpoIndex {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 200px);
+    }
+
+    .cuerpoIndex .chicoGym {
+        display: grid;
+        width: 600px;
+        height: 80vh;
+        grid-column: 1/3;
+        grid-row: 4/7;
+    }
+
+    .cuerpoIndex .botonVermas{
+        display: grid;
+        grid-column: 1/2;
+    }
+    .cuerpoIndex .linkWhatsapp{
+        display: grid;
+        grid-column: 1/2;
+        grid-row: 1/4;
+        font-size: .75rem;
+        justify-self: center;
+    }
+    
+    .cuerpoIndex .linkInsta{
+        display: grid;
+        grid-column: 1/2;
+        grid-row: 1/3;
+        font-size: .5625rem;
+        justify-self: center;
+    }
+    .cuerpoIndex .linkYoutube {
+        display: grid;
+        grid-column: 1/2;
+        grid-row: 1/5;
+        font-size: .75rem;
+        justify-self: center;
+    }
+
+    .cuerpoIndex .logoWhatsapp{
+        display: none
+    }
+    .cuerpoIndex .logoInsta{
+        display: none
+    }
+    .cuerpoIndex .logoYoutube {
+        display: none
+    }
+
+    .footerIndex {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, auto);
+    }
+
+    .footerIndex .tituloUnoIndex{
+        grid-column: 1/2;
+        grid-row: 1/2;
+        margin-right: 12.5rem;
+        justify-items: center;
+        order: 7;
+    }
+    .footerIndex .textoUnoIndex {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        margin-left: 3.125rem;
+        justify-items: center;
+        order: 6;
+    }
+
+    .footerIndex .tituloDosIndex{
+        grid-column: 1/2;
+        grid-row: 3/4;
+        margin-right: 12.5rem;
+        justify-self: center;
+        order: 5;
+    }
+    .footerIndex .textoDosIndex {
+        display: grid;
+        grid-column: 1/2;
+        grid-row: 3/4;
+        margin-left: 3.125rem;
+        justify-self: center;
+        order: 4;
+    }
+
+    .footerIndex .tituloTresIndex{
+        display: grid;
+        grid-column: 1/2;
+        grid-row: 5/6;
+        margin-right: 12.5rem;
+        justify-self: center;
+        order: 3;
+    }
+    .footerIndex .textoTresIndex {
+        display: grid;
+        grid-column: 1/2;
+        grid-row: 5/6;
+        margin-left: 12.5rem;
+        justify-self: center;
+        align-self: center;
+        order: 2;
+    }
+
+    .footerIndex .gradienteFooterIndex {
+        grid-column: 1/2;
+        grid-row: 1/7;
+        order: 1;
+    }
+}
+
+/* Pantallas pequeñas (móviles) */
+@media (max-width: 600px) {
+    .fondoIndex {
+        background-image: url("../assets/fondoinde.png");
+        background-size:cover;
+        background-repeat: no-repeat;
+    }
+
+    .headerIndex {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .navBar ul {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .textonavBar {
+        flex-direction: column;
+        gap: .3125rem;
+    }
+
+    .textonavBar li {
+        margin-bottom: 0.5rem;
+    }
+
+    .textonavBar li a {
+        font-size: 14px; 
+    }
+
+    .cuerpoIndex {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(8, auto);
+    }
+
+    .cuerpoIndex .chicoGym {
+        width: 100%;
+        height: 60vh;
+        grid-column: 1/2;
+        grid-row: 4/7;
+    }
+
+    .cuerpoIndex .botonVermas{
+        display:grid;
+        grid-column: 1/2;
+        grid-row: 1/1;
+        margin-right: 5rem;
+        justify-self: right;
+        align-self: center;
+    }
+    .cuerpoIndex .linkWhatsapp{
+        display:grid;
+        grid-column: 1/2;
+        grid-row: 2/2;
+        font-size: .625rem;
+        justify-self: center;
+    }
+    .cuerpoIndex .linkInsta{
+        display:grid;
+        grid-column: 1/2;
+        grid-row: 2/2;
+        font-size: .625rem;
+        justify-self: center;
+        align-self: end;
+    }
+    .cuerpoIndex .linkYoutube {
+        display:grid;
+        grid-column: 1/2;
+        grid-row: 2/2;
+        font-size: .625rem;
+        justify-self: center;
+    }
+
+    .cuerpoIndex .logoWhatsapp{
+        display: none;
+    }
+    .cuerpoIndex .logoInsta{
+        display: none;
+    }
+    .cuerpoIndex .logoYoutube {
+        display: none;
+    }
+
+    .cuerpoIndex h1 {
+        display: grid;
+        font-size: 30px;
+    }
+
+    .cuerpoIndex span {
+        display: grid;
+        font-size: 30px;
+    }
+
+    .footerIndex {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, auto);
+    }
+
+    .footerIndex .tituloUnoIndex{
+        grid-column: 1/2;
+        grid-row: 1/2;
+        margin-right: 12.5rem;
+        justify-items: center;
+        order: 7;
+    }
+    .footerIndex .textoUnoIndex {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        margin-left: 3.125rem;
+        justify-items: center;
+        order: 6;
+    }
+
+    .footerIndex .tituloDosIndex{
+        grid-column: 1/2;
+        grid-row: 3/4;
+        margin-right: 12.5rem;
+        justify-self: center;
+        order: 5;
+    }
+    .footerIndex .textoDosIndex {
+        display: grid;
+        grid-column: 1/2;
+        grid-row: 3/4;
+        margin-left: 3.125rem;
+        justify-self: center;
+        order: 4;
+    }
+
+    .footerIndex .tituloTresIndex{
+        display: grid;
+        grid-column: 1/2;
+        grid-row: 5/6;
+        margin-right: 12.5rem;
+        justify-self: center;
+        order: 3;
+    }
+    .footerIndex .textoTresIndex {
+        display: grid;
+        grid-column: 1/2;
+        grid-row: 5/6;
+        margin-left: 12.5rem;
+        justify-self: center;
+        align-self: center;
+        order: 2;
+    }
+
+    .footerIndex .gradienteFooterIndex {
+        grid-column: 1/2;
+        grid-row: 1/7;
+        order: 1;
+    }
+}
+
+
+
+
+/** Termina el codigo de INDEX **/
+
+/**Comienza codigo de nosotros.html **/
+
+.headerNosotros {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navBarNosotros ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.textonavBarNosotros {
+    display: flex;
+    text-decoration: none;
+    gap: 1.875rem;
+}
+
+.textonavBarNosotros li{
+    display: flex;
+    text-decoration: none;
+}
+
+.cuerpoNosotros {
+    display: grid;
+    grid-template-columns:  repeat(4,1fr);
+    grid-template-rows: repeat(4,200px);
+}
+
+.cuerpoNosotros .bannerGym {
+    display: grid;
+    width: 100%;
+    height: 19vh;
+    filter: grayscale();
+    background-size:cover;
+    grid-column: 1/5;
+    grid-row: 1/2;
+    object-fit:cover;
+    align-self: center;
+    justify-self: center;
+}
+
+.cuerpoNosotros h1{
+    font-size: 55px;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    justify-self: left;
+    align-self: top;
+    color: red;
+    font-style: italic;
+    margin-left: 20px;
+    margin-top: 60px;
+}
+
+.cuerpoNosotros .logoActive {
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    justify-self: right;
+    align-self: top;
+    margin-top: 80px;
+    margin-right: 50px;
+}
+
+.cuerpoNosotros .parrafoUno {
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 2/4;
+    text-align:left;
+    align-self: end;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.cuerpoNosotros .textoUbi{
+    display: grid;
+    font-weight: 600;
+    font-size: xx-large;
+    color: white;
+    grid-column: 2/4;
+    grid-row: 2/3;
+    justify-self: center;
+    align-self: center;
+    margin-right: 55px;
+}
+.cuerpoNosotros .mapaActive{
+    display: grid;
+    grid-column: 2/4;
+    grid-row: 2/5;
+    justify-self: center;
+    align-self: center;
+    margin-bottom: 30px;
+    margin-right: 50px;
+}
+
+.cuerpoNosotros .spotifyBar {
+    display: grid;
+    grid-column: 3/5;
+    grid-row: 2/5;
+    justify-self: right;
+    align-self: center;
+    margin-right: 20px;
+}
+
+.cuerpoNosotros .textoplaylistNosotros{
+    display: grid;
+    font-weight:600;
+    color: white;
+    grid-column: 3/5;
+    grid-row: 2/4;
+    justify-self: right;
+    align-self: top;
+    margin-top: 70px;
+    margin-right: 70px;
+}
+
+.cuerpoNosotros .botonMerch {
+    display: grid;
+    color: white;
+    background-color: red;
+    padding: 15px 10px;
+    border-radius: 100px;
+    width: 200px;
+    grid-column: 1/2;
+    grid-row: 4/5;
+    justify-self: center;
+    align-self: top;
+}
+
+.cuerpoNosotros .botonMerch:hover{
+    background-color: white;
+}
+
+.botonMerch a:hover{
+    color: red;
+    font-weight: bolder;
+}
+
+.cuerpoNosotros h1:hover{
+    color:white;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.329);
+}
+
+.cuerpoNosotros .textoUbi:hover{
+    color: red;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.329);
+}
+
+.cuerpoNosotros .textoplaylistNosotros:hover{
+    color: rgb(40, 40, 40);
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.329);
+}
+
+.textonavBarNosotros li a:hover{
+    color: black;
+}
+
+.headerNosotros .logoActiveNos:hover{
+    filter: drop-shadow(1px 1px red);
+}
+
+.footerNosotros {
+    display: grid;
+    grid-template-columns:  repeat(3,1fr);
+    grid-template-rows: repeat(0,200px);
+}
+
+.footerNosotros .tituloUnoNosotros {
+    display: grid;
+    font-weight: bold;
+    color: red;
+    align-self: end;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-left: 20px;
+}
+
+.footerNosotros .textoUnoNosotros {
+    display: grid;
+    color: black;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin-left: 20px;
+    order: 2;
+}
+
+.footerNosotros .tituloDosNosotros {
+    display: grid;
+    color: red;
+    font-weight: bold;
+    align-self: end;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.footerNosotros .textoDosNosotros {
+    display: grid;
+    color:black;
+    margin-right: 20px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    order:5;
+}
+
+.footerNosotros .tituloTresNosotros {
+    display: grid;
+    color: red;
+    font-weight: bold;
+    align-self: end;
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+.footerNosotros .textoTresNosotros {
+    display: grid;
+    color: black;
+    grid-column: 3/4;
+    grid-row: 2/3;
+    margin-right: 20px;
+    order: 2;
+}
+
+.footerNosotros .gradienteFooterNosotros{
+    display: grid;
+    width: 100%;
+    height: 20vh;
+    grid-column: 1/4;
+    grid-row: 1/4;
+    order: 1;
+}
+
+/**MEDIA **/
+@media (min-width: 601px) and (max-width: 1024px) {
+    .nosotrosFondo {
+        background-image: url("../assets/fondoinde.png");
+        background-size:cover;
+        background-repeat: no-repeat;
+    }
+    .headerNosotros {
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px 0;
+    }
+
+    .navBarNosotros ul {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .textonavBarNosotros {
+        gap: 1.25rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .textonavBarNosotros li {
+        padding: 10px 0;
+    }
+
+    .cuerpoNosotros {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(8, 200px);
+    }
+
+    .cuerpoNosotros .bannerGym {
+        display: grid;
+        grid-column: 1/5;
+        height: 25vh;
+    }
+    .cuerpoNosotros h1 {
+        display: grid;
+        grid-column: 1/5;
+        grid-row: 2/3;
+        justify-self: center;
+    }
+
+    .cuerpoNosotros .logoActive{
+        display: none;
+    }
+
+    .cuerpoNosotros .parrafoUno{
+        display: grid;
+        grid-column: 1/5;
+        grid-row: 3/4;
+        text-align: center;
+        
+    }
+
+    .cuerpoNosotros .botonMerch{
+        display: grid;
+        grid-column: 1/5;
+        grid-row: 3/4;
+    }
+
+    .cuerpoNosotros .textoUbi{
+        display: grid;
+        grid-column: 1/5;
+        grid-row: 4/5;
+        font-size:x-large;
+        justify-self: center;
+    }
+
+    .cuerpoNosotros .mapaActive{
+        display: grid;
+        grid-column: 1/5;
+        grid-row: 5/6;
+        justify-self: center;
+    }
+
+    .cuerpoNosotros .spotifyBar{
+        display: grid;
+        grid-column: 1/5;
+        grid-row: 7/9;
+        justify-self: center;
+    }
+
+    .cuerpoNosotros .textoplaylistNosotros{
+        display: grid;
+        font-size:x-large;
+        grid-column: 1/5;
+        grid-row: 6/7;
+        justify-self: center;
+        align-self: end;
+    }
+    .footerNosotros {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, auto);
+    }
+
+    .footerNosotros .tituloUnoNosotros{
+        display: grid;
+        grid-column: 1/2;
+        grid-row: 1/2;
+        margin-right: 12.5rem;
+        justify-items: center;
+        order: 7;
+    }
+    .footerNosotros .textoUnoNosotros {
+        display: grid;
+        grid-column: 1/2;
+        grid-row: 1/2;
+        margin-left: 3.125rem;
+        justify-items: center;
+        order: 6;
+    }
+
+    .footerNosotros .tituloDosNosotros{
+        display: grid;
+        grid-column: 1/2;
+        grid-row: 3/4;
+        margin-right: 12.5rem;
+        justify-self: center;
+        order: 5;
+    }
+    .footerNosotros .textoDosNosotros {
+        display: grid;
+        grid-column: 1/2;
+        grid-row: 3/4;
+        margin-left: 3.125rem;
+        justify-self: center;
+        order: 4;
+    }
+
+    .footerNosotros .tituloTresNosotros{
+        display: grid;
+        grid-column: 1/2;
+        grid-row: 5/6;
+        color: #8e8e8e;
+        margin-right: 12.5rem;
+        justify-self: center;
+        order: 3;
+    }
+    .footerNosotros .textoTresNosotros {
+        display: grid;
+        grid-column: 1/2;
+        grid-row: 5/6;
+        margin-left: 12.5rem;
+        justify-self: center;
+        align-self: center;
+        order: 2;
+    }
+
+    .footerNosotros .gradienteFooterNosotros {
+        display: grid;
+        grid-column: 1/2;
+        grid-row: 1/7;
+        order: 1;
+    }
+}
+
+/* Responsive para móviles */
+@media (max-width: 600px) {
+    .nosotrosFondo {
+        background-image: url("../assets/fondoinde.png");
+        background-size:cover;
+        background-repeat: no-repeat;
+    }
+
+    .headerNosotros {
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px 0;
+    }
+
+    .navBarNosotros ul {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .textonavBarNosotros {
+        gap: 1.25rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .textonavBarNosotros li {
+        padding: 10px 0;
+    }
+
+    .cuerpoNosotros {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(8, 200px);
+    }
+
+    .cuerpoNosotros .bannerGym {
+        display: grid;
+        grid-column: 1/5;
+        height: 25vh;
+    }
+    .cuerpoNosotros h1 {
+        display: grid;
+        grid-column: 1/5;
+        grid-row: 2/3;
+        justify-self: center;
+    }
+
+    .cuerpoNosotros .logoActive{
+        display: none;
+    }
+
+    .cuerpoNosotros .parrafoUno{
+        display: grid;
+        grid-column: 1/5;
+        grid-row: 3/4;
+        text-align: center;
+        
+    }
+
+    .cuerpoNosotros .botonMerch{
+        display: grid;
+        grid-column: 1/5;
+        grid-row: 2/3;
+        justify-self: center;
+        align-self: end;
+    }
+
+    .cuerpoNosotros .textoUbi{
+        display: grid;
+        grid-column: 1/5;
+        grid-row: 4/5;
+        font-size:x-large;
+        justify-self: center;
+    }
+
+    .cuerpoNosotros .mapaActive{
+        display: grid;
+        grid-column: 1/5;
+        grid-row: 5/6;
+        justify-self: center;
+    }
+
+    .cuerpoNosotros .spotifyBar{
+        display: grid;
+        grid-column: 1/5;
+        grid-row: 7/9;
+        justify-self: center;
+    }
+
+    .cuerpoNosotros .textoplaylistNosotros{
+        display: grid;
+        font-size:x-large;
+        text-align: center;
+        grid-column: 1/5;
+        grid-row: 6/7;
+        justify-self: center;
+        align-self: end;
+    }
+
+    .footerNosotros {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, auto);
+    }
+
+    .footerNosotros .tituloUnoNosotros{
+        display: grid;
+        grid-column: 1/2;
+        grid-row: 1/2;
+        margin-right: 12.5rem;
+        justify-items: center;
+        order: 7;
+    }
+    .footerNosotros .textoUnoNosotros {
+        display: grid;
+        grid-column: 1/2;
+        grid-row: 1/2;
+        margin-left: 3.125rem;
+        justify-items: center;
+        order: 6;
+    }
+
+    .footerNosotros .tituloDosNosotros{
+        display: grid;
+        grid-column: 1/2;
+        grid-row: 3/4;
+        margin-right: 12.5rem;
+        justify-self: center;
+        order: 5;
+    }
+    .footerNosotros .textoDosNosotros {
+        display: grid;
+        grid-column: 1/2;
+        grid-row: 3/4;
+        margin-left: 3.125rem;
+        justify-self: center;
+        order: 4;
+    }
+
+    .footerNosotros .tituloTresNosotros{
+        display: grid;
+        grid-column: 1/2;
+        grid-row: 5/6;
+        color: #8e8e8e;
+        margin-right: 12.5rem;
+        justify-self: center;
+        order: 3;
+    }
+    .footerNosotros .textoTresNosotros {
+        display: grid;
+        font-size: .625rem;
+        grid-column: 1/2;
+        grid-row: 5/6;
+        margin-left: 150px;
+        justify-self: center;
+        align-self: center;
+        order: 2;
+    }
+
+    .footerNosotros .gradienteFooterNosotros {
+        display: grid;
+        grid-column: 1/2;
+        grid-row: 1/7;
+        order: 1;
+    }
+}
+
+/**Termina codigo de nosotros.html**/
+
+/** Comienza codigo de entrenadores.html **/
+
+.headerEntrenadores {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cuerpoEntrenadores button {
+    background-color: yellow;
+    padding: 15px 10px;
+    border-radius: 100px;
+}
+.navBarEntrenadores ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.textonavBarEntrenadores {
+    display: flex;
+    text-decoration: none;
+    gap: 1.875rem;
+}
+
+.textonavBarEntrenadores li{
+    display: flex;
+    text-decoration: none;
+}
+
+.cuerpoEntrenadores {
+    display: grid;
+    grid-template-columns:  repeat(4,1fr);
+    grid-template-rows: repeat(3,200px);
+}
+
+.cuerpoEntrenadores .entrenadorFede {
+    display: grid;
+    filter: grayscale();
+    width: 85%;
+    height: 85vh;
+    object-fit: contain;
+    grid-column: 4/5;
+    grid-row: 1/4;
+    object-fit: contain;
+    justify-self: center;
+    align-self: center;
+}
+
+.cuerpoEntrenadores .entrenadoraFlor {
+    display: grid;
+    filter: grayscale();
+    width: 65%;
+    height: 65vh;
+    grid-column: 3/4;
+    grid-row: 1/4;
+    object-fit: contain;
+    justify-self: center;
+    align-self: center;
+    margin-top: 20px;
+}
+
+.cuerpoEntrenadores .entrenadorAlex {
+    display: grid;
+    filter: grayscale();
+    width: 100%;
+    height: 100vh;
+    grid-column: 2/3;
+    grid-row: 1/4;
+    object-fit: contain;
+    justify-self: center;
+    align-self: center;
+}
+
+.cuerpoEntrenadores .cuerpoTituloEntrenadores {
+    display: grid;
+    margin-left: 20px;
+    color: yellow;
+    font-style: italic;
+    font-size: 40px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    align-self: end;
+}
+
+.cuerpoEntrenadores .cuerpoTextoEntrenadores {
+    display: grid;
+    margin-left: 20px;
+    grid-column: 1/2;
+    grid-row: 2/4;
+}
+
+.cuerpoEntrenadores button {
+    display: grid;
+    width: 200px;
+    grid-column: 1/2;
+    grid-row: 2/4;
+    justify-self: center;
+    align-self: center;
+}
+
+.cuerpoEntrenadores a{
+    color: #8e8e8e;
+}
+
+.cuerpoEntrenadores .nombreAlex {
+    display: grid;
+    color: yellow;
+    font-size: xx-large;
+    font-weight: bolder;
+    grid-column: 2/3;
+    grid-row: 3/4;
+    justify-self: center;
+    align-self: center;
+}
+
+.cuerpoEntrenadores .ocupacionAlex{
+    display: grid;
+    color: white;
+    font-weight: 500;
+    grid-column: 2/3;
+    grid-row: 3/4;
+    justify-self: center;
+    align-self: end;
+    margin-bottom: 50px;
+}
+
+.cuerpoEntrenadores .nombreFlor {
+    display: grid;
+    color: yellow;
+    font-size: xx-large;
+    font-weight: bolder;
+    grid-column: 3/4;
+    grid-row: 3/4;
+    justify-self: center;
+    align-self: center;
+}
+
+.cuerpoEntrenadores .ocupacionFlor{
+    display: grid;
+    color: white;
+    font-weight: 500;
+    grid-column: 3/4;
+    grid-row: 3/4;
+    justify-self: center;
+    align-self: end;
+    margin-bottom: 50px;
+}
+
+.cuerpoEntrenadores .nombreFede {
+    display: grid;
+    color: yellow;
+    font-size: xx-large;
+    font-weight: bolder;
+    grid-column: 4/5;
+    grid-row: 3/4;
+    justify-self: center;
+    align-self: center;
+}
+
+.cuerpoEntrenadores .ocupacionFede{
+    display: grid;
+    color: white;
+    font-weight: 500;
+    grid-column: 4/5;
+    grid-row: 3/4;
+    justify-self: center;
+    align-self: end;
+    margin-bottom: 50px;
+}
+
+
+.cuerpoEntrenadores img:hover{
+    filter: drop-shadow(5px 5px yellow);
+}
+
+.cuerpoEntrenadores h1:hover{
+    color: white;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.329);
+}
+
+.cuerpoEntrenadores h3:hover{
+    color: pink;
+}
+
+.cuerpoEntrenadores a:hover{
+    color: grey;
+    font-weight: bold;
+}
+
+.cuerpoEntrenadores button:hover{
+    background-color: white;
+}
+
+.textonavBarEntrenadores li a:hover{
+    color: yellow;
+}
+
+.headerEntrenadores .logoActiveEntrenadores:hover{
+    filter: drop-shadow(1px 1px yellow);
+}
+
+.footerEntrenadores {
+    display: grid;
+    grid-template-columns:  repeat(3,1fr);
+    grid-template-rows: repeat(0,200px);
+}
+
+.footerEntrenadores .tituloUnoEntrenadores {
+    display: grid;
+    font-weight: bold;
+    align-self: end;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    color: yellow;
+    margin-left: 20px;
+}
+
+.footerEntrenadores .textoUnoEntrenadores {
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    color: black;
+    margin-left: 20px;
+    order: 4;
+}
+
+.footerEntrenadores .tituloDosEntrenadores {
+    display: grid;
+    font-weight: bold;
+    align-self: end;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    color: yellow;
+}
+
+.footerEntrenadores .textoDosEntrenadores {
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    color: black;
+    order: 3;
+}
+
+.footerEntrenadores .tituloTresEntrenadores {
+    display: grid;
+    font-weight: bold;
+    align-self: end;
+    grid-column: 3/4;
+    grid-row: 1/2;
+    color: yellow;
+}
+
+.footerEntrenadores .textoTresEntrenadores {
+    display: grid;
+    grid-column: 3/4;
+    grid-row: 2/3;
+    color: black;
+    margin-right: 20px;
+    order: 2;
+}
+
+.footerEntrenadores .gradienteFooterEntrenadores{
+    display: grid;
+    width: 100%;
+    height: 20vh;
+    grid-column: 1/4;
+    grid-row: 1/4;
+    order: 1;
+}
+/** MEDIA QUERIES **/
+/* Responsive para tabletas */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .headerEntrenadores {
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px 0;
+    }
+
+    .navBarEntrenadores ul {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .textonavBarEntrenadores {
+        gap: 1.25rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .textonavBarEntrenadores li {
+        padding: 10px 0;
+    }
+
+    .cuerpoEntrenadores {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 200px);
+    }
+
+    .cuerpoEntrenadores .entrenadorFede{
+        display: grid;
+        grid-column: 2/3;
+        grid-row: 4/5;
+        object-fit: contain;
+        width: 150px ;
+        height: aut;
+        align-self: center;
+        justify-self: center;
+    }   
+    .cuerpoEntrenadores .entrenadoraFlor{
+        display: grid;
+        grid-column: 2/3;
+        grid-row: 3/4;
+        object-fit: contain;
+        width: 7.5rem ;
+        height: auto;
+        align-self: center;
+        justify-self: center;
+    }
+    .cuerpoEntrenadores .entrenadorAlex {
+        display: grid;
+        grid-column: 2/3;
+        grid-row: 5/6;
+        object-fit: contain;
+        width: 12.5rem ;
+        height: auto;
+        align-self: center;
+        justify-self: center;
+    }
+
+    .cuerpoEntrenadores .cuerpoTituloEntrenadores{
+        display: grid;
+        grid-column: 1/4;
+        grid-row: 1/2;
+        font-size: 2.5rem;
+        margin-bottom: 1.25rem;
+        justify-self: center;
+        align-self: center;
+    }
+
+    .cuerpoEntrenadores .cuerpoTextoEntrenadores{
+        display: grid;
+        grid-column: 1/5;
+        grid-row: 2/3;
+        text-align: center;
+    }
+
+    .cuerpoEntrenadores button{
+        display: grid;
+        grid-column: 1/4;
+        grid-row: 1/2;
+        align-self: end;
+        margin-bottom: 1.25rem;
+    }
+
+    .cuerpoEntrenadores .nombreAlex{
+        display: grid;
+        grid-column: 3/4;
+        grid-row: 5/6;
+    }
+    .cuerpoEntrenadores .ocupacionAlex{
+        display: grid;
+        grid-column: 3/4;
+        grid-row: 5/6;
+    }
+    .cuerpoEntrenadores .nombreFlor{
+        display: grid;
+        grid-column: 3/4;
+        grid-row: 3/4;
+    }
+    .cuerpoEntrenadores .ocupacionFlor{
+        display: grid;
+        grid-column: 3/4;
+        grid-row: 3/4;
+    }
+
+    .cuerpoEntrenadores .nombreFede{
+        display:grid;
+        grid-column: 3/4;
+        grid-row: 4/5;
+    }
+    .cuerpoEntrenadores .ocupacionFede{
+        display:grid;
+        grid-column: 3/4;
+        grid-row: 4/5;
+    }
+
+    .footerEntrenadores {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, auto);
+    }
+
+    .footerEntrenadores .tituloUnoEntrenadores{
+        display: grid;
+        grid-column: 1/2;
+        grid-row: 1/2;
+        margin-right: 12.5rem;
+        justify-items: center;
+        order: 7;
+    }
+    .footerEntrenadores .textoUnoEntrenadores {
+        display: grid;
+        grid-column: 1/2;
+        grid-row: 1/2;
+        margin-left: 3.125rem;
+        justify-items: center;
+        order: 6;
+    }
+
+    .footerEntrenadores .tituloDosEntrenadores{
+        display: grid;
+        grid-column: 1/2;
+        grid-row: 3/4;
+        margin-right: 12.5rem;
+        justify-self: center;
+        order: 5;
+    }
+    .footerEntrenadores .textoDosEntrenadores {
+        display: grid;
+        grid-column: 1/2;
+        grid-row: 3/4;
+        margin-left: 3.125rem;
+        justify-self: center;
+        order: 4;
+    }
+
+    .footerEntrenadores .tituloTresEntrenadores{
+        display: grid;
+        grid-column: 1/2;
+        grid-row: 5/6;
+        color: #8e8e8e;
+        margin-right: 12.5rem;
+        justify-self: center;
+        order: 3;
+    }
+    .footerEntrenadores .textoTresEntrenadores {
+        display: grid;
+        grid-column: 1/2;
+        grid-row: 5/6;
+        margin-left: 12.5rem;
+        justify-self: center;
+        align-self: center;
+        order: 2;
+    }
+
+    .footerEntrenadores .gradienteFooterEntrenadores {
+        display: grid;
+        grid-column: 1/2;
+        grid-row: 1/7;
+        order: 1;
+    }
+}
+
+/* Responsive para móviles */
+@media (max-width: 600px) {
+    .headerEntrenadores {
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px 0;
+    }
+
+    .navBarEntrenadores ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .textonavBarEntrenadores {
+        gap: 1rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .textonavBarEntrenadores li {
+        padding: 8px 0;
+    }
+
+    .cuerpoEntrenadores {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 200px);
+    }
+
+    .cuerpoEntrenadores .entrenadorFede{
+        display: grid;
+        grid-column: 2/3;
+        grid-row: 4/5;
+        object-fit: contain;
+        width: 150px ;
+        height: aut;
+        align-self: center;
+        justify-self: center;
+    }   
+    .cuerpoEntrenadores .entrenadoraFlor{
+        display: grid;
+        grid-column: 2/3;
+        grid-row: 3/4;
+        object-fit: contain;
+        width: 7.5rem ;
+        height: auto;
+        align-self: center;
+        justify-self: center;
+    }
+    .cuerpoEntrenadores .entrenadorAlex {
+        display: grid;
+        grid-column: 2/3;
+        grid-row: 5/6;
+        object-fit: contain;
+        width: 12.5rem ;
+        height: auto;
+        align-self: center;
+        justify-self: center;
+    }
+
+    .cuerpoEntrenadores .cuerpoTituloEntrenadores{
+        display: grid;
+        grid-column: 1/4;
+        grid-row: 1/2;
+        font-size: 2.5rem;
+        margin-bottom: 1.25rem;
+        justify-self: center;
+        align-self: center;
+    }
+
+    .cuerpoEntrenadores .cuerpoTextoEntrenadores{
+        display: grid;
+        grid-column: 1/5;
+        grid-row: 2/3;
+        text-align: center;
+    }
+
+    .cuerpoEntrenadores button{
+        display: grid;
+        grid-column: 1/4;
+        grid-row: 1/2;
+        align-self: end;
+        margin-bottom: 1.25rem;
+    }
+
+    .cuerpoEntrenadores .nombreAlex{
+        display: grid;
+        grid-column: 3/4;
+        grid-row: 5/6;
+    }
+    .cuerpoEntrenadores .ocupacionAlex{
+        display: grid;
+        grid-column: 3/4;
+        grid-row: 5/6;
+    }
+    .cuerpoEntrenadores .nombreFlor{
+        display: grid;
+        grid-column: 3/4;
+        grid-row: 3/4;
+    }
+    .cuerpoEntrenadores .ocupacionFlor{
+        display: grid;
+        grid-column: 3/4;
+        grid-row: 3/4;
+    }
+
+    .cuerpoEntrenadores .nombreFede{
+        display:grid;
+        grid-column: 3/4;
+        grid-row: 4/5;
+    }
+    .cuerpoEntrenadores .ocupacionFede{
+        display:grid;
+        grid-column: 3/4;
+        grid-row: 4/5;
+    }
+
+    .footerEntrenadores {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, auto);
+    }
+
+    .footerEntrenadores .tituloUnoEntrenadores{
+        display: grid;
+        grid-column: 1/2;
+        grid-row: 1/2;
+        margin-right: 12.5rem;
+        justify-items: center;
+        order: 7;
+    }
+    .footerEntrenadores .textoUnoEntrenadores {
+        display: grid;
+        grid-column: 1/2;
+        grid-row: 1/2;
+        margin-left: 3.125rem;
+        justify-items: center;
+        order: 6;
+    }
+
+    .footerEntrenadores .tituloDosEntrenadores{
+        display: grid;
+        grid-column: 1/2;
+        grid-row: 3/4;
+        margin-right: 12.5rem;
+        justify-self: center;
+        order: 5;
+    }
+    .footerEntrenadores .textoDosEntrenadores {
+        display: grid;
+        grid-column: 1/2;
+        grid-row: 3/4;
+        margin-left: 3.125rem;
+        justify-self: center;
+        order: 4;
+    }
+
+    .footerEntrenadores .tituloTresEntrenadores{
+        display: grid;
+        grid-column: 1/2;
+        grid-row: 5/6;
+        color: #8e8e8e;
+        margin-right: 12.5rem;
+        justify-self: center;
+        order: 3;
+    }
+    .footerEntrenadores .textoTresEntrenadores {
+        display: grid;
+        grid-column: 1/2;
+        grid-row: 5/6;
+        margin-left: 12.5rem;
+        justify-self: center;
+        align-self: center;
+        order: 2;
+    }
+
+    .footerEntrenadores .gradienteFooterEntrenadores {
+        display: grid;
+        grid-column: 1/2;
+        grid-row: 1/7;
+        order: 1;
+    }
+}
+
+/** Termina codigo de entrenadores.html**/
+
+/** Comienza codigo de Features.html **/
+.headerFeatures {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navBarFeatures ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.textonavBarFeatures {
+    display: flex;
+    text-decoration: none;
+    gap: 1.875rem;
+}
+
+.textonavBarFeatures li{
+    display: flex;
+    text-decoration: none;
+}
+
+.cuerpoFeatures {
+    display: grid;
+    grid-template-columns:  repeat(4,1fr);
+    grid-template-rows: repeat(3,200px);
+}
+
+.cuerpoFeatures .maquinaGym {
+    width: 100%;
+    height: 100vh;
+    object-fit: contain;
+    filter: grayscale();
+    grid-column: 1/3;
+    grid-row: 1/4;
+}
+
+.cuerpoFeatures .tituloFeatures {
+    display: grid;
+    color: rgb(0, 128, 75);
+    font-style: italic;
+    padding-top: 60px;
+    margin-right: 50px ;
+    font-size: 60px;
+    grid-column: 3/5;
+    grid-row: 1/2;
+    align-self: center;
+    justify-self: right;
+}
+
+.cuerpoFeatures .botonFeatures {
+    display: grid;
+    background-color: rgb(0, 128, 75);
+    border-radius: 100px;
+    padding: 15px 10px;
+    margin-bottom: 95px;
+    margin-right: 50px;
+    grid-column: 3/5;
+    grid-row: 3/4;
+    justify-self: right;
+    align-self: end;   
+}
+
+
+.cuerpoFeatures .textoFeatures {
+    display: grid;
+    grid-column: 3/5;
+    grid-row: 1/4;
+    margin-right: 50px;
+    text-align: right;
+    align-self:  center;
+}
+
+.cuerpoFeatures img:hover{
+    filter: drop-shadow(5px 5px rgb(0, 128, 75));
+}
+
+.cuerpoFeatures h1:hover {
+    color: white;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.329);
+}
+
+.cuerpoFeatures a:hover {
+    color: rgb(0, 128, 75);
+    font-weight: bolder;
+}
+
+.cuerpoFeatures button:hover {
+    font-weight: bold;
+    background-color: white;
+}
+
+.textonavBarFeatures li a:hover{
+    color: rgb(0, 128, 75);
+}
+
+.headerFeatures .logoActiveFeatures:hover{
+    filter: drop-shadow(1px 1px rgb(0, 128, 75));
+}
+.footerFeatures {
+    display: grid;
+    grid-template-columns:  repeat(3,1fr);
+    grid-template-rows: repeat(0,200px);
+}
+
+.footerFeatures .tituloUnoFeatures {
+    display: grid;
+    font-weight: bold;
+    align-self: end;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-left: 20px;
+    color: white;
+}
+
+.footerFeatures .textoUnoFeatures {
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    color: black;
+    order: 4;
+    margin-left: 20px;
+}
+
+.footerFeatures .tituloDosFeatures {
+    display: grid;
+    font-weight: bold;
+    align-self: end;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    color: white;
+}
+
+.footerFeatures .textoDosFeatures {
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    color: black;
+    order: 3
+}
+
+.footerFeatures .tituloTresFeatures {
+    display: grid;
+    font-weight: bold;
+    align-self: end;
+    grid-column: 3/4;
+    grid-row: 1/2;
+    color: white;
+}
+
+.footerFeatures .textoTresFeatures {
+    display: grid;
+    grid-column: 3/4;
+    grid-row: 2/3;
+    color: black;
+    order: 2;
+    margin-right: 20px;
+}
+
+.footerFeatures .gradienteFooterFeatures{
+    display: grid;
+    width: 100%;
+    height: 20vh;
+    grid-column: 1/4;
+    grid-row: 1/5;
+    order: 1
+}
+
+/**Comienzo de Codigo media queries**/
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    .featuresFondo {
+        background-image: url("../assets/fondoFeat.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .headerFeatures {
+        flex-direction: column;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .navBarFeatures ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .textonavBarFeatures {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .cuerpoFeatures {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, auto);
+    }
+
+    .cuerpoFeatures .maquinaGym {
+        display: grid;
+        grid-column: 1/3;
+        grid-row: 1/3;
+        justify-self: center;
+        width: 31.25rem;
+        height: auto;
+    }
+
+    .cuerpoFeatures .tituloFeatures {
+        display: flex;
+        grid-column: 1/3;
+        grid-row: 3/4;
+        color: white;
+        justify-self: center;
+        text-align: center;
+    }
+
+    .cuerpoFeatures .textoFeatures {
+        display: grid;
+        grid-column: 1/3;
+        grid-row: 4/5;
+        text-align: center;
+        margin-right: 15.625rem;
+        margin-left: 15.625rem;
+    }
+
+    .cuerpoFeatures .botonFeatures {
+        grid-column: 1/3;
+        grid-row: 5/6;
+        justify-self: center;
+        margin-right: 0;
+    }
+
+    .footerFeatures {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, auto);
+    }
+
+    .footerFeatures .tituloUnoFeatures{
+        grid-column: 1/2;
+        grid-row: 1/2;
+        margin-right: 12.5rem;
+        justify-items: center;
+        order: 7;
+    }
+    .footerFeatures .textoUnoFeatures {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        margin-left: 3.125rem;
+        justify-items: center;
+        order: 6;
+    }
+
+    .footerFeatures .tituloDosFeatures{
+        grid-column: 1/2;
+        grid-row: 3/4;
+        margin-right: 12.5rem;
+        justify-self: center;
+        order: 5;
+    }
+    .footerFeatures .textoDosFeatures {
+        display: grid;
+        grid-column: 1/2;
+        grid-row: 3/4;
+        margin-left: 3.125rem;
+        justify-self: center;
+        order: 4;
+    }
+
+    .footerFeatures .tituloTresFeatures{
+        display: grid;
+        grid-column: 1/2;
+        grid-row: 5/6;
+        margin-right: 12.5rem;
+        justify-self: center;
+        order: 3;
+    }
+    .footerFeatures .textoTresFeatures {
+        display: grid;
+        grid-column: 1/2;
+        grid-row: 5/6;
+        margin-left: 12.5rem;
+        justify-self: center;
+        align-self: center;
+        order: 2;
+    }
+
+    .footerFeatures .gradienteFooterFeatures {
+        grid-column: 1/2;
+        grid-row: 1/7;
+        order: 1;
+    }
+}
+
+@media (max-width: 600px) {
+    .featuresFondo {
+        background-image: url("../assets/fondoFeat.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .headerFeatures {
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .navBarFeatures ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .textonavBarFeatures {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .textonavBarFeatures li {
+        justify-content: center;
+        padding: 5px;
+    }
+
+    .cuerpoFeatures {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, auto);
+    }
+
+    .cuerpoFeatures .maquinaGym {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        justify-self: center;
+        width: 250px;
+        height: auto;
+    }
+
+    .cuerpoFeatures .tituloFeatures {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        font-size: 30px;
+        justify-self: center;
+        color: white;
+        text-align: center;
+        padding-top: 20px;
+        margin-right: 0;
+    }
+
+    .cuerpoFeatures .textoFeatures {
+        grid-column: 1/2;
+        grid-row: 3/4;
+        text-align: center;
+        font-size: .625rem;
+        margin-right: 9.375rem;
+        margin-left: 9.375rem;
+    }
+
+    .cuerpoFeatures .botonFeatures {
+        grid-column: 1/2;
+        grid-row: 4/5;
+        justify-self: center;
+        margin-right: 0;
+    }
+
+    .footerFeatures {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, auto);
+    }
+
+    .footerFeatures .tituloUnoFeatures{
+        display: grid;
+        grid-column: 1/2;
+        grid-row: 1/2;
+        margin-right: 12.5rem;
+        justify-items: center;
+        order: 7;
+    }
+    .footerFeatures .textoUnoFeatures {
+        display: grid;
+        grid-column: 1/2;
+        grid-row: 1/2;
+        margin-left: 3.125rem;
+        justify-items: center;
+        order: 6;
+    }
+
+    .footerFeatures .tituloDosFeatures{
+        display: grid;
+        grid-column: 1/2;
+        grid-row: 3/4;
+        margin-right: 12.5rem;
+        justify-self: center;
+        order: 5;
+    }
+    .footerFeatures .textoDosFeatures {
+        display: grid;
+        grid-column: 1/2;
+        grid-row: 3/4;
+        margin-left: 3.125rem;
+        justify-self: center;
+        order: 4;
+    }
+
+    .footerFeatures .tituloTresFeatures{
+        display: grid;
+        grid-column: 1/2;
+        grid-row: 5/6;
+        margin-right: 12.5rem;
+        justify-self: center;
+        order: 3;
+    }
+    .footerFeatures .textoTresFeatures {
+        display: grid;
+        font-size: .625rem;
+        grid-column: 1/2;
+        grid-row: 5/6;
+        margin-left: 3.125rem;
+        justify-self: center;
+        align-self: center;
+        order: 2;
+    }
+
+    .footerFeatures .gradienteFooterFeatures {
+        display: grid;
+        grid-column: 1/2;
+        grid-row: 1/7;
+        order: 1;
+    }
+}
+
+
+/** Termina codigo de Features.html **/
+
+/** Comienza codigo de Planes.html **/
+.headerPlanes{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navBarPlanes ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.textonavBarPlanes {
+    display: flex;
+    text-decoration: none;
+    gap: 1.875rem;
+}
+
+.textonavBarPlanes li{
+    display: flex;
+    text-decoration: none;
+}
+
+.cuerpoPlanes {
+    display: grid;
+    grid-template-columns:  repeat(3,1fr);
+    grid-template-rows: repeat(1,200px);
+}
+
+.cuerpoPlanes .chicoGym2{
+    display: grid;
+    filter: grayscale();
+    width: 70%;
+    height: 95vh;
+    grid-column: 1/3;
+    grid-row: 1/4;
+    justify-self: center;
+    align-self: end;
+}
+
+.cuerpoPlanes .tituloPlanes {
+    display: grid;
+    grid-column: 2/4;
+    grid-row: 1/2;
+    color: rgb(0, 238, 255);
+    font-style: italic;
+    font-size: 75px;
+    justify-self: center;
+    align-self: center;
+    margin-top: 200px;
+}
+
+.cuerpoPlanes .botonPlanesClases {
+    display: grid;
+    color: white;
+    width: 200px;
+    background-color: rgb(0, 238, 255);
+    padding: 9px 40px;
+    border-radius: 100px;
+    grid-column: 2/4;
+    grid-row: 2/4;
+    justify-self: center;
+    align-self: center;
+    margin-bottom: 170px;
+}
+
+
+.cuerpoPlanes .botonPlanesEjercicios {
+    display: grid;
+    color: white;
+    width: 200px;
+    background-color: rgb(0, 238, 255);
+    padding: 9px 40px;;
+    border-radius: 100px;
+    grid-column: 2/4;
+    grid-row: 2/4;
+    justify-self: center;
+    align-self: end;
+    margin-bottom: 170px;
+}
+
+.cuerpoPlanes a{
+    font-size: x-large;
+}
+
+.headerPlanes .logoActivePlanes:hover{
+    filter: drop-shadow(1px 1px rgb(0, 238, 255));
+}
+
+.cuerpoPlanes h1:hover{
+    color: white;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.329);
+}
+
+.cuerpoPlanes button:hover {
+    font-weight: bolder;
+    background-color: white;
+}
+
+.cuerpoPlanes a:hover{
+    color: rgb(0, 238, 255) ;
+    font-weight: bolder;
+}
+.cuerpoPlanes img:hover{
+    filter: drop-shadow(5px 5px rgb(0, 238, 255));
+}
+
+.textonavBarPlanes li a:hover{
+    color: rgb(0, 238, 255);
+}
+
+.footerPlanes {
+    display: grid;
+    grid-template-columns:  repeat(3,1fr);
+    grid-template-rows: repeat(0,200px);
+}
+
+.footerPlanes .tituloUnoPlanes {
+    display: grid;
+    font-weight: bold;
+    align-self: end;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-left: 20px;
+    color: white;
+}
+
+.footerPlanes .textoUnoPlanes {
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    color: black;
+    margin-left: 20px;
+    order: 4;
+}
+
+.footerPlanes .tituloDosPlanes {
+    display: grid;
+    font-weight: bold;
+    align-self: end;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    color: white;
+}
+
+.footerPlanes .textoDosPlanes {
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    color: black;
+    order: 3;
+}
+
+.footerPlanes .tituloTresPlanes {
+    display: grid;
+    font-weight: bold;
+    align-self: end;
+    grid-column: 3/4;
+    grid-row: 1/2;
+    color: white;
+}
+
+.footerPlanes .textoTresPlanes {
+    display: grid;
+    grid-column: 3/4;
+    grid-row: 2/3;
+    color: black;
+    order: 2;
+    margin-right: 20px;
+}
+
+.footerPlanes .gradienteFooterPlanes{
+    display: grid;
+    width: 100%;
+    height: 20vh;
+    grid-column: 1/4;
+    grid-row: 1/4;
+    order: 1;
+}
+
+/** Comienzo de Codigo de media queries **/
+@media (min-width: 601px) and (max-width: 1024px) {
+    .planesFondo {
+        background-image: url("../assets/fondoPla.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .headerPlanes {
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px 0;
+    }
+
+    .navBarPlanes ul {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .textonavBarPlanes {
+        gap: 1.25rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .textonavBarPlanes li {
+        padding: 10px 0;
+    }
+
+    .cuerpoPlanes {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+    }
+
+    .cuerpoPlanes .chicoGym2 {
+        display: grid;
+        width: 100%;
+        height: auto;
+        grid-column: 1/3;
+        grid-row: 1/2;
+        justify-self: center;
+        align-self: center;
+    }
+
+    .cuerpoPlanes .tituloPlanes {
+        display: grid;
+        grid-column: 1/3;
+        grid-row: 2/3;
+        font-size: 50px;
+        margin-top: 50px;
+    }
+
+    .cuerpoPlanes .botonPlanesClases{
+        display: grid;
+        grid-column: 1/3;
+        grid-row: 3/4;
+        margin-bottom: 30px;
+    }
+    .cuerpoPlanes .botonPlanesEjercicios {
+        display: grid;
+        grid-column: 1/3;
+        grid-row: 4/5;
+        margin-bottom: 30px;
+    }
+
+    .footerPlanes {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, auto);
+    }
+
+    .footerPlanes .tituloUnoPlanes{
+        display: grid;
+        grid-column: 1/2;
+        grid-row: 1/2;
+        margin-right: 12.5rem;
+        justify-items: center;
+        order: 7;
+    }
+    .footerPlanes .textoUnoPlanes {
+        display: grid;
+        grid-column: 1/2;
+        grid-row: 1/2;
+        margin-left: 3.125rem;
+        justify-items: center;
+        order: 6;
+    }
+
+    .footerPlanes .tituloDosPlanes{
+        display: grid;
+        grid-column: 1/2;
+        grid-row: 3/4;
+        margin-right: 12.5rem;
+        justify-self: center;
+        order: 5;
+    }
+    .footerPlanes .textoDosPlanes {
+        display: grid;
+        grid-column: 1/2;
+        grid-row: 3/4;
+        margin-left: 3.125rem;
+        justify-self: center;
+        order: 4;
+    }
+
+    .footerPlanes .tituloTresPlanes{
+        display: grid;
+        grid-column: 1/2;
+        grid-row: 5/6;
+        margin-right: 12.5rem;
+        justify-self: center;
+        order: 3;
+    }
+    .footerPlanes .textoTresPlanes {
+        display: grid;
+        grid-column: 1/2;
+        grid-row: 5/6;
+        margin-left: 12.5rem;
+        justify-self: center;
+        align-self: center;
+        order: 2;
+    }
+
+    .footerPlanes .gradienteFooterPlanes {
+        display: grid;
+        grid-column: 1/2;
+        grid-row: 1/7;
+        order: 1;
+    }
+}
+
+/* Responsive para móviles */
+@media (max-width: 600px) {
+    .planesFondo {
+        background-image: url("../assets/fondoPla.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .headerPlanes {
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px 0;
+    }
+
+    .navBarPlanes ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .textonavBarPlanes {
+        gap: 1rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .textonavBarPlanes li {
+        padding: 8px 0;
+    }
+
+    .cuerpoPlanes {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, auto);
+    }
+
+    .cuerpoPlanes .chicoGym2 {
+        display: grid;
+        width: 100%;
+        height: auto;
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .cuerpoPlanes .tituloPlanes {
+        display: grid;
+        grid-column: 1/2;
+        grid-row: 2/3;
+        font-size: 35px;
+        margin-top: 30px;
+        color: white;
+        text-align: center;
+    }
+
+    .cuerpoPlanes .botonPlanesClases{
+        display: grid;
+        grid-column: 1/2;
+        grid-row: 3/4;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .cuerpoPlanes .botonPlanesEjercicios {
+        display: grid;
+        grid-column: 1/2;
+        grid-row: 4/5;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .footerPlanes {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, auto);
+    }
+
+    .footerPlanes .tituloUnoPlanes{
+        display: grid;
+        grid-column: 1/2;
+        grid-row: 1/2;
+        margin-right: 12.5rem;
+        justify-items: center;
+        order: 7;
+    }
+    .footerPlanes .textoUnoPlanes {
+        display: grid;
+        grid-column: 1/2;
+        grid-row: 1/2;
+        margin-left: 3.125rem;
+        justify-items: center;
+        order: 6;
+    }
+
+    .footerPlanes .tituloDosPlanes{
+        display: grid;
+        grid-column: 1/2;
+        grid-row: 3/4;
+        margin-right: 12.5rem;
+        justify-self: center;
+        order: 5;
+    }
+    .footerPlanes .textoDosPlanes {
+        display: grid;
+        grid-column: 1/2;
+        grid-row: 3/4;
+        margin-left: 3.125rem;
+        justify-self: center;
+        order: 4;
+    }
+
+    .footerPlanes .tituloTresPlanes{
+        display: grid;
+        grid-column: 1/2;
+        grid-row: 5/6;
+        margin-right: 12.5rem;
+        justify-self: center;
+        order: 3;
+    }
+    .footerPlanes .textoTresPlanes {
+        display: grid;
+        font-size: .625rem;
+        grid-column: 1/2;
+        grid-row: 5/6;
+        margin-left: 3.125rem;
+        justify-self: center;
+        align-self: center;
+        order: 2;
+    }
+
+    .footerPlanes .gradienteFooterPlanes {
+        display: grid;
+        grid-column: 1/2;
+        grid-row: 1/7;
+        order: 1;
+    }
+}
+
+
+/** Finalizado Codigo de media queries **/
+
+/** Termina codigo de Planes.html **/
+
+/** Comienzo de codigo Merch.html **/
+
+.carousel-control-prev {
+    box-shadow: none;
+}
+
+.carousel-control-next{
+    box-shadow: none;
+}
+
+.tituloMerch{
+    margin-left: 185px;
+}
+
+.tituloMerch h2{
+    margin-bottom: 20px;
+}
+
+.tituloMerch h1{
+    color: red;
+    font-size: 90px;
+    font-style: italic;
+}
+
+.tituloMerch h1:hover{
+    color: white;
+}
+
+.tituloMerch h2:hover{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.tituloMerch button{
+    box-shadow: none;
+}
+
+.tituloMerch a{
+    color: red;
+}
+
+.tituloMerch a:hover{
+    color: white;
+}
+
+.merchActive h2:hover{
+    color: grey;
+}
+
+/** MEDIA **/
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+    .tituloMerch {
+        margin-left: 100px;
+    }
+
+    .tituloMerch h1 {
+        font-size: 70px;
+    }
+}
+
+@media (max-width: 768px) {
+    .tituloMerch {
+        margin-left: 50px;
+    }
+
+    .tituloMerch h1 {
+        font-size: 50px;
+    }
+
+    .tituloMerch h2 {
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .tituloMerch {
+        margin-left: 20px;
+        text-align: center;
+    }
+
+    .tituloMerch h1 {
+        font-size: 40px;
+    }
+
+    .tituloMerch h2 {
+        margin-bottom: 10px;
+    }
+}
+
+/** Final de codigo Merch.html **/
+
+/**Comienzo de codigo Clases.html **/
+
+.clasesPlanes{
+    display: flex;
+    width: auto;
+    height: 400px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.tituloClases{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tituloClases h1{
+    color: white;
+    font-size: 90px;
+    font-style: italic;
+}
+
+.tituloClases h1:hover{
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.329);
+}
+
+.tituloClases h3{
+    margin-bottom: 30px;
+}
+
+.tituloClases button{
+    border-radius: 100px;
+    background-color: rgb(0, 238, 255);
+    margin-top: 10px;
+}
+
+.tituloClases button:hover{
+    background-color: white;
+}
+
+.tituloClases a{
+    color: white;
+}
+
+.tituloClases a:hover{
+    font-weight: bolder;
+    color:rgb(0, 238, 255);
+}
+
+.opcionesClases{
+    width: 12.5rem;
+    height: 18.75rem;
+    background-color: rgba(255, 255, 255, 0.575);
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgb(0, 238, 255);
+    margin: 5px; 
+}
+
+.clasesImg img{
+    filter: grayscale();
+    width: 200px;
+    height: 200px;
+    align-self: center;
+}
+
+.clasesImg img:hover{
+    filter: drop-shadow(1px 1px white);
+}
+
+.opcionesPlanes .clasesImg img{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    filter: grayscale();
+}
+
+.infoClases{
+    margin-left: 10px;
+}
+
+.infoClases h2{
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.infoClases h2:hover{
+    color: grey;
+}
+
+.infoClases p{
+    font-size: small;
+}
+
+/** MEDIA **/
+
+@media (max-width: 600px){
+    .clasesPlanes {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+    
+    .tituloClases {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .tituloClases h1 {
+        color: white;
+        font-size: 2.5rem;
+        font-style: italic;
+    }
+    
+    .tituloClases h3 {
+        margin-bottom: 20px;
+    }
+    
+    .tituloClases button {
+        border-radius: 100px;
+        background-color: rgb(0, 238, 255);
+        margin-top: 10px;
+    }
+    
+    .tituloClases a {
+        color: white;
+    }
+    
+    .opcionesClases {
+        width: 90%;
+        max-width: 12.5rem;
+        height: auto;
+        background-color: rgba(255, 255, 255, 0.575);
+        border-radius: 5px;
+        box-shadow: 5px 5px 10px rgb(0, 238, 255);
+        margin: 10px;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    .clasesImg img {
+        filter: grayscale();
+        width: 100%;
+        max-width: 200px;
+        height: auto;
+        margin: 0 auto;
+    }
+    
+    .opcionesPlanes .clasesImg img {
+        width: 50px;
+        height: 50px;
+        object-fit: contain;
+        filter: grayscale();
+    }
+    
+    .infoClases {
+        margin-left: 10px;
+    }
+    
+    .infoClases h2 {
+        font-weight: bolder;
+        font-style: italic;
+        font-size: 1.5rem; /* Ajuste proporcional */
+    }
+    
+    .infoClases p {
+        font-size: 1rem;
+    }
+}
+
+
+/**Finaliza el codigo de clases.thml **/
+
+/**Comienza el codigo de ejecicios.html**/
+
+.ejerciciosPlanes{
+    display: flex;
+    width: auto;
+    height: 400px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.ejercicios{
+    width: 12.5rem;
+    height: 18.75rem;
+    background-color: rgba(255, 255, 255, 0.575);
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgb(0, 238, 255);
+    margin: 5px; 
+}
+
+.ejercicios .videoEjercicio{
+    width: 100px;
+    height: 50px;
+}
+
+.ejerciciosPlanes .ejercicios iframe{
+    width: 200px;
+    height: 150px;
+    object-fit: contain;
+    filter: grayscale();
+}
+
+.ejercicios .infoEjercicio{
+    margin-left: 10px;
+    margin-top: 100px
+}
+
+.infoEjercicio h2{
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.tituloEjercicios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tituloEjercicios h1{
+    color: white;
+    font-size: 90px;
+    font-style: italic;
+}
+
+.tituloEjercicios button{
+    border-radius: 100px;
+    background-color: aqua;
+}
+
+.tituloEjercicios h3{
+    margin-bottom: 30px;
+}
+
+.tituloEjercicios .link{
+    color: aqua;
+    font-weight: bolder;
+}
+
+.tituloEjercicios .link:hover{
+    color: white;
+}
+
+.tituloEjercicios a:hover{
+    font-weight: bolder;
+    color: aqua;
+}
+
+.tituloEjercicios button:hover{
+    background-color: white;
+}
+
+.tituloEjercicios h1:hover{
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.329)
+}
+
+.ejercicios iframe:hover{
+    filter: drop-shadow(1px 1px);
+}
+
+.infoEjercicio h2:hover{
+    color: grey;
+}
+
+/** MEDIA **/
+@media (max-width: 600px){
+    .ejerciciosPlanes {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+    
+    .ejercicios {
+        width: 90%;
+        max-width: 12.5rem;
+        height: auto;
+        background-color: rgba(255, 255, 255, 0.575);
+        border-radius: 5px;
+        box-shadow: 5px 5px 10px rgb(0, 238, 255);
+        margin: 10px;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    .ejercicios .videoEjercicio {
+        width: 100%;
+        height: auto;
+        max-width: 100px;
+        max-height: 50px;
+    }
+    
+    .ejerciciosPlanes .ejercicios iframe {
+        width: 11.25rem;
+        height: 3.125rem;
+        object-fit: contain;
+        filter: grayscale();
+        margin: 0 auto;
+    }
+    
+    .ejercicios .infoEjercicio {
+        margin-top: 20px;
+        text-align: center;
+    }
+    
+    .infoEjercicio p{
+        display: none;
+    }
+
+    .infoEjercicio h2 {
+        font-weight: bolder;
+        font-style: italic;
+        font-size: 1.5rem;
+    }
+    
+    .tituloEjercicios {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .tituloEjercicios h1 {
+        color: white;
+        font-size: 2.5rem;
+        font-style: italic;
+    }
+    
+    .tituloEjercicios h3 {
+        font-size: 1.25rem;
+        margin-bottom: 20px;
+        margin-left: 1.25rem;
+        margin-right: 1.25rem;
+    }
+    
+    .tituloEjercicios button {
+        border-radius: 100px;
+        background-color: aqua;
+        margin-top: 10px;
+    }
+    
+    .tituloEjercicios .link {
+        color: aqua;
+        font-weight: bolder;
+    }
+}
+
+/** Final de codigo de ejercicios **/

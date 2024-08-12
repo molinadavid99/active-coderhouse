@@ -1,0 +1,139 @@
+.entrenadoresFondo{
+	background-image: url("../assets/fondoEntrenador.png"); 
+	background-size: cover; 
+	background-repeat: no-repeat; 
+}
+.cuerpoEntrenadores {
+	display: grid ;
+	grid-template-columns: repeat(4,1fr); 
+	grid-template-rows: repeat(3,200px) ;
+	.entrenadorFede {
+		display: grid ;
+		filter: grayscale(100%) ;
+		width: 85% ;
+		height: 85vh; 
+		object-fit: contain; 
+		grid-column: 4/5 ;
+		grid-row: 1/4 ;
+		object-fit: contain; 
+		justify-self: center ;
+		align-self: center ;
+	}
+	.entrenadoraFlor {
+		display: grid ;
+		filter: grayscale(100%) ;
+		width: 65% ;
+		height: 65vh; 
+		grid-column: 3/4 ;
+		grid-row: 1/4 ;
+		object-fit: contain ;
+		justify-self: center;
+		align-self: center ;
+		margin-top: 20px ;
+	}
+	.entrenadorAlex {
+		display: grid ;
+		filter: grayscale(100%) ;
+		width: 100% ;
+		height: 100vh ;
+		grid-column: 2/3 ;
+		grid-row: 1/4 ;
+		object-fit: contain ;
+		justify-self: center ;
+		align-self: center ;
+	}
+	.cuerpoTituloEntrenadores {
+		display: grid ;
+		margin-left: 20px ;
+		color: $colorEntrenadores ;
+		font-style: italic ;
+		font-size: 40px ;
+		grid-column: 1/2 ;
+		grid-row: 1/2 ;
+		align-self: end 
+	}
+	.cuerpoTextoEntrenadores {
+		display: grid ;
+		margin-left: 20px ;
+		grid-column: 1/2 ;
+		grid-row: 2/4 ;
+	}
+	.nombreAlex {
+		display: grid ;
+		color: $colorEntrenadores ;
+		font-size: xx-large ;
+		font-weight: bolder; 
+		grid-column: 2/3 ;
+		grid-row: 3/4 ;
+		justify-self: center ;
+		align-self: center ;
+	}
+	.ocupacionAlex {
+		display: grid ;
+		color: white ;
+		font-weight: 500;
+		grid-column: 2/3 ;
+		grid-row: 3/4 ;
+		justify-self: center ;
+		align-self: end ;
+		margin-bottom: 50px ;
+	}
+	.nombreFlor {
+		display: grid ;
+		color: $colorEntrenadores ;
+		font-size: xx-large ;
+		font-weight: bolder ;
+		grid-column: 3/4 ;
+		grid-row: 3/4 ;
+		justify-self: center ;
+		align-self: center ;
+	}
+	.ocupacionFlor {
+		display: grid ;
+		color: white ;
+		font-weight: 500 ;
+		grid-column: 3/4 ;
+		grid-row: 3/4 ;
+		justify-self: center ;
+		align-self: end ;
+		margin-bottom: 50px ;
+	}
+	.nombreFede {
+		display: grid ;
+		color: $colorEntrenadores ;
+		font-size: xx-large ;
+		font-weight: bolder ;
+		grid-column: 4/5 ;
+		grid-row: 3/4 ;
+		justify-self: center ;
+		align-self: center ;
+	}	
+	.ocupacionFede {
+		display: grid ;
+		color: white ;
+		font-weight: 500 ;
+		grid-column: 4/5 ;
+		grid-row: 3/4 ;
+		justify-self: center ;
+		align-self: end ;
+		margin-bottom: 50px ;
+	}
+	img {
+		&:hover {
+			filter: drop-shadow(5px 5px map-get($map: $paleta, $key:colorEntrenadores )) ;
+		}
+	}
+	h1 {
+		&:hover {
+			color: white ;
+			text-shadow: 1px 1px rgba(0, 0, 0, 0.329) ;
+		}
+	}
+	a {
+		color: black ;
+		&:hover{
+			color: grey ;
+				font-weight: bold ;
+		}
+	}
+}	

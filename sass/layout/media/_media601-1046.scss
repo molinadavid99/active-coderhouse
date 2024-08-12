@@ -1,0 +1,629 @@
+/**INDEX**/
+@media (min-width: 601px) and (max-width: 1046px){
+    .fondoIndex {
+        background-image: url("../assets/fondoinde.png");
+	    background-size: cover;
+	    background-repeat: no-repeat; 
+    }
+
+    .headerIndex{
+        flex-direction: column;
+	    justify-content: center; 
+	    align-items: center;
+    } 
+
+    .navBar{
+        ul {
+            flex-direction: column ;
+            align-items: center;
+        }
+    
+    } 
+
+    .textonavBar{
+        gap: .3125rem;
+	    li{
+            margin-bottom: 0.5rem; 
+		    text-align: center ;
+        }
+    }
+
+    .cuerpoIndex {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 200px);
+        .chicoGym {
+            display: grid;
+            width: 600px;
+            height: 100vh;
+            grid-column: 1/3;
+            grid-row: 4/7;
+    }   
+        .botonVermas {
+            display: display;
+            grid-column: 1/3;
+            grid-row: 2/3;
+            justify-self: center;
+            margin-right: 6.25rem;
+    }
+
+        .linkWhatsapp{
+            display: grid;
+            grid-column: 1/3;
+            grid-row: 3/4;
+            justify-self: center;
+    }
+        
+        .logoWhatsapp {
+            display: none;
+    }
+
+        .logoInsta {
+            display: none;
+    }
+
+        .logoYoutube {
+            display: none;
+    }
+}
+
+    .footerIndex {
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: repeat(6, auto); 
+        .tituloUnoIndex {
+            grid-column: 1/2; 
+            grid-row: 1/2 ;
+            margin-right: 12.5rem; 
+            justify-items: center ;
+            order: 7 ;
+    }
+        .textoUnoIndex {
+            grid-column: 1/2 ;
+            grid-row: 1/2 ;
+            margin-left: 3.125rem; 
+            justify-items: center ;
+            order: 6 ;
+    }
+        .tituloDosIndex {
+            grid-column: 1/2 ;
+            grid-row: 3/4 ;
+            margin-right: 12.5rem; 
+            justify-self: center ;
+            order: 5 ;
+    }
+        .textoDosIndex {
+            display: grid ;
+            grid-column: 1/2 ;
+            grid-row: 3/4 ;
+            margin-left: 3.125rem ;
+            justify-self: center ;
+            order: 4 ;
+    }
+        .tituloTresIndex { 
+            display: grid ;
+            grid-column: 1/2 ;
+            grid-row: 5/6 ;
+            color: rgb(255, 126, 126);
+            margin-right: 12.5rem ;
+            justify-self: center ;
+            order: 3 ;
+    }
+        .textoTresIndex {
+            display: grid ;
+            grid-column: 1/2 ;
+            grid-row: 5/6 ;
+            margin-left: 12.5rem ;
+            justify-self: center ;
+            align-self: center ;
+            order: 2 ;
+    }
+        .gradienteFooterIndex {
+            grid-column: 1/2; 
+            grid-row: 1/7 ;
+            order: 1 ;
+        }
+    }
+}
+
+/**NOSOTROS**/
+@media (min-width: 601px) and (max-width: 1024px){
+    .fondoNosotros {
+        background-image: url("../assets/fondoinde.png");
+	    background-size: cover;
+	    background-repeat: no-repeat; 
+    }
+
+    .headerNosotros{
+        flex-direction: column;
+	    justify-content: center; 
+	    align-items: center;
+    } 
+
+    .navBarNosotros{
+        ul {
+            flex-direction: column ;
+            align-items: center;
+        }
+    
+    } 
+
+    .textonavBarNosotros{
+        gap: .3125rem;
+	    li{
+            margin-bottom: 0.5rem; 
+		    text-align: center ;
+        }
+    }
+
+    .cuerpoNosotros {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(8, 200px);
+        .bannerGym {
+            display: grid;
+            grid-column: 1/5;
+            height: 25vh;
+    }
+        h1 {
+            display: grid;
+            grid-column: 1/5;
+            grid-row: 2/3;
+            justify-self: center;
+    }
+        .logoActive {
+            display: none;
+    }
+
+        .parrafoUno {
+            display: grid;
+            grid-column: 1/5;
+            grid-row: 3/4;
+            text-align: center;
+    }
+        .botonMerch {
+            display: grid;
+            grid-column: 1/5;
+            grid-row: 2/3;
+            justify-self: center;
+            align-self: end;
+    }
+        .textoUbi {
+            display: grid;
+            grid-column: 1/5;
+            grid-row: 4/5;
+            font-size: xx-large;
+            justify-self: center;
+    }
+        .mapaActive {
+            display: grid;
+            grid-column: 1/5;
+            grid-row: 5/6;
+            justify-self: center;
+    }
+        .spotifyBar {
+            display: grid;
+            grid-column: 1/5;
+            grid-row: 7/9;
+            justify-self: center;
+    }
+        .textoplaylistNosotros {
+            display: grid;
+            font-size: x-large;
+            grid-column: 1/5;
+            grid-row: 6/7;
+            justify-self: center;
+            align-self: end;
+        }
+    }    
+    
+    .footerNosotros {
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: repeat(6, auto); 
+        .tituloUnoNosotros {
+            grid-column: 1/2; 
+            grid-row: 1/2 ;
+            margin-right: 12.5rem; 
+            justify-items: center ;
+            order: 7 ;
+    }
+        .textoUnoNosotros {
+            grid-column: 1/2 ;
+            grid-row: 1/2 ;
+            margin-left: 3.125rem; 
+            justify-items: center ;
+            order: 6 ;
+    }
+        .tituloDosNosotros {
+            grid-column: 1/2 ;
+            grid-row: 3/4 ;
+            margin-right: 12.5rem; 
+            justify-self: center ;
+            order: 5 ;
+    }
+        .textoDosNosotros{
+            display: grid ;
+            grid-column: 1/2 ;
+            grid-row: 3/4 ;
+            margin-left: 3.125rem ;
+            justify-self: center ;
+            order: 4 ;
+    }
+        .tituloTresNosotros { 
+            display: grid ;
+            grid-column: 1/2 ;
+            grid-row: 5/6 ;
+            color: rgb(255, 126, 126);
+            margin-right: 12.5rem ;
+            justify-self: center ;
+            order: 3 ;
+    }
+        .textoTresNosotros {
+            display: grid ;
+            grid-column: 1/2 ;
+            grid-row: 5/6 ;
+            margin-left: 12.5rem ;
+            justify-self: center ;
+            align-self: center ;
+            order: 2 ;
+    }
+        .gradienteFooterNosotros {
+            grid-column: 1/2; 
+            grid-row: 1/7 ;
+            order: 1 ;
+        }
+    }
+}
+
+/** ENTRENADORES **/
+
+@media (min-width: 601px) and (max-width: 1046px){
+
+    .headerEntrenadores{
+        flex-direction: column;
+	    justify-content: center; 
+	    align-items: center;
+    } 
+
+    .navBarEntrenadores{
+        ul {
+            flex-direction: column ;
+            align-items: center;
+        }
+    
+    } 
+
+    .textonavBarEntrenadores{
+        gap: .3125rem;
+	    li{
+            margin-bottom: 0.5rem; 
+		    text-align: center ;
+        }
+    }
+
+    .cuerpoEntrenadores {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 200px);
+    .entrenadorFede {
+        display: grid;
+        grid-column: 1/3;
+        grid-row: 4/5;
+        object-fit: contain;
+        width: 150px;
+        height: aut;
+        align-self: center;
+        justify-self: center;
+    }
+    .entrenadoraFlor {
+        display: grid;
+        grid-column: 1/3;
+        grid-row: 3/4;
+        object-fit: contain;
+        width: 7.5rem;
+        height: auto;
+        align-self: center;
+        justify-self: center;
+    }
+    .entrenadorAlex {
+        display: grid;
+        grid-column: 1/3;
+        grid-row: 5/6;
+        object-fit: contain;
+        width: 12.5rem;
+        height: auto;
+        align-self: center;
+        justify-self: center;
+    }
+    .cuerpoTituloEntrenadores {
+        display: grid;
+        grid-column: 1/4;
+        grid-row: 1/2;
+        font-size: 2.5rem;
+        margin-bottom: 1.25rem;
+        justify-self: center;
+        align-self: center;
+    }
+    .cuerpoTextoEntrenadores {
+        display: grid;
+        grid-column: 1/5;
+        grid-row: 2/3;
+        text-align: center;
+        margin-left: 4.375rem;
+        margin-right: 4.375rem;
+    }
+        button {
+        display: grid;
+        grid-column: 1/4;
+        grid-row: 1/2;
+        align-self: end;
+        margin-bottom: 1.25rem;
+    }
+        .nombreAlex {
+        display: grid;
+        grid-column: 2/4;
+        grid-row: 5/6;
+        justify-self: center;
+        align-self: center;
+        
+    }
+        .ocupacionAlex {
+        display: grid;
+        grid-column: 2/4;
+        grid-row: 5/6;
+        justify-self: center;
+        align-self: end;
+    }
+        .nombreFlor {
+        display: grid;
+        grid-column: 2/4;
+        grid-row: 3/4;
+        justify-self: center;
+        align-self: center;
+    }
+    .ocupacionFlor {
+        display: grid;
+        grid-column: 2/4;
+        grid-row: 3/4;
+        justify-self: center;
+        align-self: end;
+    }
+    .nombreFede {
+        display: grid;
+        grid-column: 2/4;
+        grid-row: 4/5;
+        justify-self: center;
+        align-self: center;
+    }
+    .ocupacionFede {
+        display: grid;
+        grid-column: 2/4;
+        grid-row: 4/5;
+        justify-self: center;
+        align-self: end;
+    }
+}
+    .footerEntrenadores {
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: repeat(6, auto); 
+        .tituloUnoEntrenadores {
+            grid-column: 1/2; 
+            grid-row: 1/2 ;
+            margin-right: 12.5rem; 
+            justify-items: center ;
+            order: 7 ;
+    }
+        .textoUnoEntrenadores {
+            grid-column: 1/2 ;
+            grid-row: 1/2 ;
+            margin-left: 3.125rem; 
+            justify-items: center ;
+            order: 6 ;
+    }
+        .tituloDosEntrenadores {
+            grid-column: 1/2 ;
+            grid-row: 3/4 ;
+            margin-right: 12.5rem; 
+            justify-self: center ;
+            order: 5 ;
+    }
+        .textoDosEntrenadores{
+            display: grid ;
+            grid-column: 1/2 ;
+            grid-row: 3/4 ;
+            margin-left: 3.125rem ;
+            justify-self: center ;
+            order: 4 ;
+    }
+        .tituloTresEntrenadores{ 
+            display: grid ;
+            grid-column: 1/2 ;
+            grid-row: 5/6 ;
+            color: white;
+            margin-right: 12.5rem ;
+            justify-self: center ;
+            order: 3 ;
+    }
+        .textoTresEntrenadores {
+            display: grid ;
+            grid-column: 1/2 ;
+            grid-row: 5/6 ;
+            margin-left: 12.5rem ;
+            justify-self: center ;
+            align-self: center ;
+            order: 2 ;
+    }
+        .gradienteFooterEntrenadores {
+            grid-column: 1/2; 
+            grid-row: 1/7 ;
+            order: 1 ;
+        }
+    }
+}
+
+/** FEATURES **/
+@media (min-width: 601px) and (max-width: 1046px){
+.fondoFeatures {
+    background-image: url("../../../assets/fondoFeat.png");
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+.headerFeatures{
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+} 
+
+.navBarFeatures{
+    ul {
+        flex-direction: column ;
+        align-items: center;
+    }
+
+} 
+
+.textonavBarFeatures{
+    gap: .3125rem;
+    li{
+        margin-bottom: 0.5rem; 
+        text-align: center ;
+    }
+}
+.cuerpoFeatures {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, auto);
+    .maquinaGym {
+        display: grid;
+        grid-column: 1/3;
+        grid-row: 1/3;
+        justify-self: center;
+        width: 31.25rem;
+        height: auto;
+    }
+    .tituloFeatures {
+        display: flex;
+        grid-column: 1/3;
+        grid-row: 3/4;
+        color: white;
+        justify-self: center;
+        text-align: center;
+    }
+    .textoFeatures {
+        display: grid;
+        grid-column: 1/3;
+        grid-row: 4/5;
+        text-align: center;
+        margin-right: 6.25rem;
+        margin-left: 6.25rem;
+    }
+    .botonFeatures {
+        grid-column: 1/3;
+        grid-row: 5/6;
+        justify-self: center;
+        margin-right: 0;
+    }
+}
+
+.footerFeatures {
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: repeat(6, auto); 
+    .tituloUnoFeatures {
+        grid-column: 1/2; 
+        grid-row: 1/2 ;
+        margin-right: 12.5rem; 
+        justify-items: center ;
+        order: 7 ;
+}
+    .textoUnoFeatures {
+        grid-column: 1/2 ;
+        grid-row: 1/2 ;
+        margin-left: 3.125rem; 
+        justify-items: center ;
+        order: 6 ;
+}
+    .tituloDosFeatures {
+        grid-column: 1/2 ;
+        grid-row: 3/4 ;
+        margin-right: 12.5rem; 
+        justify-self: center ;
+        order: 5 ;
+}
+    .textoDosFeatures{
+        display: grid ;
+        grid-column: 1/2 ;
+        grid-row: 3/4 ;
+        margin-left: 3.125rem ;
+        justify-self: center ;
+        order: 4 ;
+}
+    .tituloTresFeatures{ 
+        display: grid ;
+        grid-column: 1/2 ;
+        grid-row: 5/6 ;
+        color: white;
+        margin-right: 12.5rem ;
+        justify-self: center ;
+        order: 3 ;
+}
+    .textoTresFeatures {
+        display: grid ;
+        grid-column: 1/2 ;
+        grid-row: 5/6 ;
+        margin-left: 12.5rem ;
+        justify-self: center ;
+        align-self: center ;
+        order: 2 ;
+}
+    .gradienteFooterFeatures {
+        grid-column: 1/2; 
+        grid-row: 1/7 ;
+        order: 1 ;
+        }
+    }
+}
+
+/** PLANES **/
+@media (min-width: 601px) and (max-width: 1046px){
+    .headerPlanes{
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center;
+    } 
+    
+    .navBarPlanes{
+        ul {
+            flex-direction: column ;
+            align-items: center;
+        }
+    
+    } 
+    
+    .textonavBarPlanes{
+        gap: .3125rem;
+        li{
+            margin-bottom: 0.5rem; 
+            text-align: center ;
+        }
+    }
+
+    .cuerpoPlanes {
+        .tituloPlanes {
+            color: white;
+        }
+    }
+}
+
+/** MERCH **/
+@media (max-width: 768px) {
+    .tituloMer{
+	h1 {
+		font-size: 50px 
+    }
+	h2 { 
+		margin-bottom: 15px 
+        }
+    }
+}

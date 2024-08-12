@@ -1,0 +1,28 @@
+.fondoMerch{ 
+	background-color: #8e8e8e;
+}
+
+.tituloMerch {
+	margin-left: 185px;
+	h1 {
+		color: map-get($map: $paleta, $key:colorIndex ) ;
+		font-size: 90px ;
+		font-style: italic ;
+		&:hover {
+			color: white ;
+		}
+	}
+	h2 {
+		margin-bottom: 20px ;
+		&:hover {
+			font-weight: bold ;
+			font-style: italic ;
+		}
+	}
+	a {
+		color: map-get($map: $paleta, $key:colorIndex) ;
+		&:hover{ 
+			color: white ;
+		}
+	}
+}

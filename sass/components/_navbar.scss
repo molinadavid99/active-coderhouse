@@ -1,0 +1,123 @@
+/** INDEX **/
+.navBar {
+	ul {
+		display: flex;
+		flex-direction: row;
+	}
+}
+
+.textonavBar { 
+	display: flex; 
+	text-decoration: none;
+	gap: 1.875rem; 
+	li {
+		display: flex; 
+		text-decoration: none;
+		a {
+			color: white; 
+			&:hover {
+				color: red;
+			}
+		}
+	}
+}
+
+/** NOSOTROS.HTML **/
+
+.navBarNosotros{
+	ul{
+		display: flex; 
+		flex-direction: row;
+	}
+}
+.textonavBarNosotros{ 
+	display: flex; 
+	text-decoration: none;
+	gap: 1.875rem;
+	li{
+		display: flex; 
+		text-decoration: none; 
+		a{
+			&:hover{ 
+				color: black;
+			}
+		}
+	}
+} 
+
+/** ENTRENADORES.HTML **/
+
+.navBarEntrenadores {
+	ul {
+		display: flex; 
+		flex-direction: row ;
+	}	
+}
+.textonavBarEntrenadores {
+	display: flex ;
+	text-decoration: none ;
+	gap: 1.875rem ;
+	li {
+		display: flex;
+		text-decoration: none;
+		a {
+			&:hover{ 
+				color: yellow ;
+			}
+		}
+	}
+}
+
+/** FEATURES.HTML **/
+
+.navBarFeatures {
+	ul {
+		display: flex ;
+		flex-direction: row ;
+	}
+}
+
+.textonavBarFeatures {
+	display: flex ;
+	text-decoration: none ;
+	gap: 1.875rem ;
+	li {
+		display: flex ;
+		text-decoration: none ;
+		a {
+			&:hover {
+				color: rgb(0, 128, 75) ;
+			}
+		}
+	}
+}
+
+/** PLANES.HTML **/
+
+.navBarPlanes {
+	ul {
+		display: flex;
+		flex-direction: row;
+	}
+}
+.textonavBarPlanes {
+	display: flex; 
+	text-decoration: none ;
+	gap: 1.875rem ;
+	li {
+		display: flex;
+		text-decoration: none; 
+		a {
+			&:hover{ 
+				color: rgb(0, 238, 255);
+			}
+		}
+	}
+}
+
+/** MERCH.HTML **/
+.tituloMerch{
+    button {
+        box-shadow: none;
+    } 
+}

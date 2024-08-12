@@ -1,0 +1,159 @@
+/**INDEX**/
+    .botonVermas{ 
+        display: grid;
+        background-color: map-get($map: $paleta, $key:colorIndex );
+        padding: 15px 10px; 
+        border-radius: 100px;  
+        grid-column: 1/2; 
+        grid-row: 2/3; 
+        margin-left: 50px; 
+        margin-bottom: 150px;
+        &:hover{ 
+            background-color: white;
+        }
+    } 
+    
+    .linkWhatsapp{ 
+        display: grid; 
+        padding: 15px 10px; 
+        border-radius: 100px; 
+        margin-right: 50px;
+        background-color: rgb(37, 211, 102); 
+        grid-column: 1/2; 
+        grid-row: 3/4; 
+        justify-self: right; 
+        align-self: end; 
+        margin-bottom: 70px; 
+        &:hover{ 
+            background-color: white;
+        }
+    } 
+    
+    .linkInsta{  
+        @extend .linkWhatsapp;
+        background-color: rgb(184, 12, 186);  
+        grid-row: 2/3; 
+        margin-bottom: 20px;
+    }  
+    
+    .linkYoutube{ 
+        @extend .linkWhatsapp;
+        background-color: map-get($map: $paleta, $key:colorIndex );
+        grid-row: 4/5; 
+        margin-bottom: 115px;
+    }  
+
+
+
+/** NOSOTROS.HTML **/
+
+.botonMerch {
+    display: grid ;
+    color: white ;
+    background-color: map-get($map: $paleta, $key:colorIndex ) ;
+    padding: 15px 10px; 
+    border-radius: 100px; 
+    width: 200px ;
+    grid-column: 1/2 ;
+    grid-row: 4/5 ;
+    justify-self: center ;
+    align-self: top ;
+    &:hover {
+        background-color: white ;
+    }
+        a {
+            &:hover {
+                color: map-get($map: $paleta, $key:colorIndex ) ;
+                font-weight: bolder ;
+        }
+    }
+}
+
+/** ENTRENADORES.HTML **/
+
+button {
+    background-color: map-get($map: $paleta, $key:colorEntrenadores );
+    padding: 15px 10px ;
+    border-radius: 100px ;
+    display: grid ;
+    width: 200px ;
+    grid-column: 1/2 ;
+    grid-row: 2/4 ;
+    justify-self: center ;
+    align-self: center ;
+    &:hover {
+        background-color: white ;
+    }
+}
+
+/** FEATURES.HTML **/
+
+.botonFeatures {
+    display: grid ;
+    background-color: map-get($map: $paleta, $key:colorFeatures ) ;
+    border-radius: 100px ;
+    padding: 15px 10px ;
+    margin-bottom: 95px ;
+    margin-right: 50px ;
+    grid-column: 3/5 ;
+    grid-row: 3/4 ;
+    justify-self: right ;
+    align-self: end ;
+    & :hover{ 
+			font-weight: bold; 
+		}
+    }
+
+/** PLANES.HTML **/
+
+.botonPlanesClases {
+    display: grid; 
+    color: white ;
+    width: 200px ;
+    background-color: map-get($map: $paleta, $key:colorPlanes ); 
+    padding: 9px 40px ;
+    border-radius: 100px; 
+    grid-column: 2/4 ;
+    grid-row: 2/4 ;
+    justify-self: center; 
+    align-self: center ;
+    margin-bottom: 170px ;
+    &:hover {
+        font-weight: bolder ;
+        background-color: white;
+    }
+}
+.botonPlanesEjercicios {
+    @extend .botonPlanesClases;
+    align-self: end ;
+}
+
+/** MERCH.HTML **/
+.tituloMerch{
+    button {
+        box-shadow: none;
+    } 
+}
+
+/** EJERCICIOS.HTML **/
+.tituloEjercicios {
+    button {
+        border-radius: 100px ;
+        background-color: map-get($map: $paleta, $key:colorPlanes ); 
+        &:hover {
+            background-color: white ;
+        }
+    }
+}
+
+/** CLASES.HTML **/
+.tituloClases {
+    button {
+		border-radius: 100px; 
+		background-color: map-get($map: $paleta, $key:colorPlanes ); 
+		margin-top: 10px ;
+		&:hover {
+			background-color: white ;
+		}
+	}
+}

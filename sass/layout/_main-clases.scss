@@ -1,0 +1,78 @@
+.clasesPlanes {
+	@include flexEjer-Clas(row, nowrap, space-evenly, center);
+	width: auto ;
+	height: 400px ;
+}
+.tituloClases {
+	display: flex ;
+	flex-direction: column ;
+	align-items: center ;
+	h1 {
+		color: white ;
+		font-size: 90px; 
+		font-style: italic; 
+		&:hover {
+			text-shadow: 1px 1px rgba(0, 0, 0, 0.329) ;
+		}
+	}
+	h3 {
+		margin-bottom: 30px; 
+	}
+	button {
+		border-radius: 100px; 
+		background-color: map-get($map: $paleta, $key:colorPlanes ); 
+		margin-top: 10px ;
+		&:hover {
+			background-color: white ;
+		}
+	}
+	a {
+		color: white ;
+		&:hover {
+			font-weight: bolder ;
+			color: map-get($map: $paleta, $key:colorPlanes );
+			}
+		}
+	} 
+.opcionesClases {
+	width: 12.5rem ;
+	height: 18.75rem; 
+	background-color: rgba(255, 255, 255, 0.575) ;
+	border-radius: 5px ;
+	box-shadow: 5px 5px 10px map-get($map: $paleta, $key:colorPlanes ) ;
+	margin: 5px ;
+.clasesImg {
+	img {
+		filter: grayscale(100%) ;
+		width: 200px ;
+		height: 200px ;
+		align-self: center; 
+		&:hover {
+			filter: drop-shadow(1px 1px white) ;
+		}
+	}
+}
+.opcionesPlanes {
+	.clasesImg{ 
+		img{ 
+			width: 50px ;
+			height: 50px ;
+			object-fit: contain; 
+			filter: grayscale(100%) ;
+		}
+	}
+}
+.infoClases {
+	margin-left: 10px;
+	h2 {
+		font-weight: bolder ;
+		font-style: italic ;
+		&:hover {
+			color: grey ;
+		}
+	}
+	p {
+		font-size: small ;
+		}
+	}
+}

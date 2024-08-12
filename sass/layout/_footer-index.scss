@@ -1,0 +1,65 @@
+.footerIndex{ 
+	display: grid;
+	grid-template-columns: repeat(3,1fr); 
+	grid-template-rows: repeat(0,200px);
+	.tituloUnoIndex{ 
+		display: grid;
+		margin-left: 20px; 
+		font-size: x-large;
+		font-weight: bold;
+		align-self: end;
+		grid-column: 1/2 ;
+		grid-row: 1/2; 
+		color: map-get($map: $paleta, $key:colorIndex ) ;
+	}
+	.textoUnoIndex{
+		display: grid; 
+		grid-column: 1/2; 
+		grid-row: 2/3;
+		margin-left: 20px ;
+		order: 2 ;
+		color: black; 
+		order: 4 ;
+	}
+	.tituloDosIndex{
+		display: grid;
+		font-size: x-large;
+		font-weight: bold;
+		align-self: end ;
+		grid-column: 2/3; 
+		grid-row: 1/2 ;
+		color: map-get($map: $paleta, $key:colorIndex ) ;
+	}
+	.textoDosIndex {
+		display: grid; 
+		grid-column: 2/3; 
+		grid-row: 2/3; 
+		color: black ;
+		order: 2;
+	}
+	.tituloTresIndex{ 
+		display: grid;
+		font-size: x-large;
+		font-weight: bold; 
+		align-self: end; 
+		grid-column: 3/4; 
+		grid-row: 1/2;
+		color: map-get($map: $paleta, $key:colorIndex ); 
+	}
+	.textoTresIndex{ 
+		display: grid;
+		grid-column: 3/4; 
+		grid-row: 2/3; 
+		color: black ;
+		margin-right: 20px; 
+		order: 2;
+	}
+	.gradienteFooterIndex{ 
+		display: grid;
+		width: 100%;
+		height: 20vh;
+		grid-column: 1/4; 
+		grid-row: 1/4 ;
+		order: 1;
+	}
+}

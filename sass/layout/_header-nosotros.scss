@@ -1,0 +1,8 @@
+.headerNosotros{
+	@include flexHeader(space-evenly,center);
+	.logoActiveNos{
+		&:hover{
+			filter: drop-shadow(1px 1px map-get($map: $paleta, $key:colorIndex ));
+		} 
+	} 
+}
