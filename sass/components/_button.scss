@@ -101,10 +101,11 @@
     grid-row: 3/4 ;
     justify-self: right ;
     align-self: end ;
-    & :hover{ 
+    &:hover { 
 			font-weight: bold; 
-		}
-    }
+            background-color: white;
+	}
+}
 
 /** PLANES.HTML **/
 

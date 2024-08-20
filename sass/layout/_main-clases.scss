@@ -15,7 +15,7 @@
 			text-shadow: 1px 1px rgba(0, 0, 0, 0.329) ;
 		}
 	}
-	h3 {
+	h2 {
 		margin-bottom: 30px; 
 	}
 	button {
@@ -64,11 +64,14 @@
 }
 .infoClases {
 	margin-left: 10px;
-	h2 {
+	margin-right: 10px;
+	h3 {
 		font-weight: bolder ;
 		font-style: italic ;
+		font-size: 20px;
 		&:hover {
 			color: grey ;
+			font-style: normal;
 		}
 	}
 	p {

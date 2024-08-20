@@ -501,6 +501,7 @@ a {
     display: grid;
     font-weight: 600;
     font-size: xx-large;
+    font-style: italic;
     color: white;
     grid-column: 2/4;
     grid-row: 2/3;
@@ -528,6 +529,7 @@ a {
   .cuerpoNosotros .textoplaylistNosotros {
     display: grid;
     font-weight: 600;
+    font-style: italic;
     color: white;
     grid-column: 3/5;
     grid-row: 2/4;
@@ -826,6 +828,9 @@ a {
     margin-right: 50px;
     text-align: right;
     align-self: center; }
+    .cuerpoFeatures .textoFeatures span {
+      font-weight: 800;
+      color: #00804b; }
   .cuerpoFeatures img:hover {
     filter: drop-shadow(5px 5px #00804b); }
   .cuerpoFeatures h1:hover {
@@ -1019,6 +1024,32 @@ a {
     .tituloMerch a:hover {
       color: white; }
 
+.tituloEjercicios {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .tituloEjercicios h1 {
+    font-size: 90px;
+    color: white;
+    font-style: italic; }
+    .tituloEjercicios h1:hover {
+      text-shadow: 1px 1px rgba(0, 0, 0, 0.329); }
+  .tituloEjercicios button {
+    border-radius: 100px;
+    background-color: #00eeff; }
+    .tituloEjercicios button:hover {
+      background-color: white; }
+  .tituloEjercicios h2 {
+    margin-bottom: 30px; }
+  .tituloEjercicios .link {
+    color: #00eeff;
+    font-weight: bolder; }
+    .tituloEjercicios .link:hover {
+      color: white; }
+  .tituloEjercicios a:hover {
+    font-weight: bolder;
+    color: #00eeff; }
+
 .ejerciciosPlanes {
   display: flex;
   flex-direction: row;
@@ -1045,40 +1076,17 @@ a {
     height: 50px; }
   .ejercicios .infoEjercicio {
     margin-left: 10px;
+    margin-right: 10px;
     margin-top: 100px; }
+    .ejercicios .infoEjercicio h3 {
+      font-weight: bolder;
+      font-style: italic;
+      font-size: 25px; }
+      .ejercicios .infoEjercicio h3:hover {
+        color: grey;
+        font-style: normal; }
   .ejercicios iframe:hover {
     filter: drop-shadow(1px 1px); }
-  .ejercicios .infoEjercicio h2 {
-    font-weight: bolder;
-    font-style: italic; }
-    .ejercicios .infoEjercicio h2:hover {
-      color: grey; }
-
-.tituloEjercicios {
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
-  .tituloEjercicios h1 {
-    color: white;
-    font-size: 90px;
-    font-style: italic; }
-    .tituloEjercicios h1:hover {
-      text-shadow: 1px 1px rgba(0, 0, 0, 0.329); }
-  .tituloEjercicios button {
-    border-radius: 100px;
-    background-color: #00eeff; }
-    .tituloEjercicios button:hover {
-      background-color: white; }
-  .tituloEjercicios h3 {
-    margin-bottom: 30px; }
-  .tituloEjercicios .link {
-    color: #00eeff;
-    font-weight: bolder; }
-    .tituloEjercicios .link:hover {
-      color: white; }
-  .tituloEjercicios a:hover {
-    font-weight: bolder;
-    color: #00eeff; }
 
 .clasesPlanes {
   display: flex;
@@ -1099,7 +1107,7 @@ a {
     font-style: italic; }
     .tituloClases h1:hover {
       text-shadow: 1px 1px rgba(0, 0, 0, 0.329); }
-  .tituloClases h3 {
+  .tituloClases h2 {
     margin-bottom: 30px; }
   .tituloClases button {
     border-radius: 100px;
@@ -1133,12 +1141,15 @@ a {
     object-fit: contain;
     filter: grayscale(100%); }
   .opcionesClases .infoClases {
-    margin-left: 10px; }
-    .opcionesClases .infoClases h2 {
+    margin-left: 10px;
+    margin-right: 10px; }
+    .opcionesClases .infoClases h3 {
       font-weight: bolder;
-      font-style: italic; }
-      .opcionesClases .infoClases h2:hover {
-        color: grey; }
+      font-style: italic;
+      font-size: 20px; }
+      .opcionesClases .infoClases h3:hover {
+        color: grey;
+        font-style: normal; }
     .opcionesClases .infoClases p {
       font-size: small; }
 
@@ -1225,8 +1236,9 @@ a {
   grid-row: 3/4;
   justify-self: right;
   align-self: end; }
-  .botonFeatures :hover {
-    font-weight: bold; }
+  .botonFeatures:hover {
+    font-weight: bold;
+    background-color: white; }
 
 /** PLANES.HTML **/
 .botonPlanesClases, .botonPlanesEjercicios {
@@ -2024,6 +2036,28 @@ a {
 
 /** EJERCICIOS **/
 @media (max-width: 600px) {
+  .tituloEjercicios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px; }
+    .tituloEjercicios h1 {
+      color: white;
+      font-size: 2.5rem;
+      font-style: italic; }
+  h2 {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem; }
+  button {
+    border-radius: 100px;
+    background-color: aqua;
+    margin-top: 10px; }
+  .link {
+    color: aqua;
+    font-weight: bolder; }
   .ejerciciosPlanes {
     display: flex;
     flex-direction: row;
@@ -2060,33 +2094,10 @@ a {
       margin-top: 3.125rem; }
       .ejercicios .infoEjercicio p {
         display: none; }
-      .ejercicios .infoEjercicio h2 {
+      .ejercicios .infoEjercicio h3 {
         font-weight: bolder;
         font-style: italic;
         font-size: 1.5rem; } }
-
-.tituloEjercicios {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  margin-bottom: 20px; }
-  .tituloEjercicios h1 {
-    color: white;
-    font-size: 2.5rem;
-    font-style: italic; }
-  .tituloEjercicios h3 {
-    font-size: 1.25rem;
-    margin-bottom: 20px;
-    margin-left: 1.25rem;
-    margin-right: 1.25rem; }
-  .tituloEjercicios button {
-    border-radius: 100px;
-    background-color: aqua;
-    margin-top: 10px; }
-  .tituloEjercicios .link {
-    color: aqua;
-    font-weight: bolder; }
 
 /**INDEX**/
 @media (min-width: 601px) and (max-width: 1046px) {
@@ -2474,7 +2485,7 @@ a {
 /** FEATURES **/
 @media (min-width: 601px) and (max-width: 1046px) {
   .featuresFondo {
-    background-image: url("../assets/fondoFeat.png");
+    background-image: url("../../../assets/fondoFeat.png");
     background-size: cover;
     background-repeat: no-repeat; }
   .headerFeatures {
@@ -2574,7 +2585,7 @@ a {
 /** PLANES **/
 @media (min-width: 601px) and (max-width: 1046px) {
   .planesFondo {
-    background-image: url("../assets/fondoPla.png");
+    background-image: url("../../../assets/fondoPla.png");
     background-size: cover;
     background-repeat: no-repeat; }
   .headerPlanes {
